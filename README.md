@@ -1,14 +1,20 @@
 # mikedidomizio.com
 
-## sync from S3
-From parent directory
+Uses Vue to build the website for mikedidomizio.com.
 
-`aws s3 cp s3://www.mikedidomizio.com mikedidomizio.com --recursive`
+On merge to master, deploys to S3 via GitHub actions.
 
-## development
-Development is easiest by mocking a server and accessing the URL through your browser
+### Compiles and hot-reloads for development
+```
+yarn serve
+```
 
-- install [watch-http-server](https://www.npmjs.com/package/watch-http-server) globally
-- run `watch-http-server -a 192.168.0.230 -p 8080` or use different address/port
-- access the URL through your browser
-- caching seems to be occurring with styling so use "Disable cache" in the Network panel
+### Compiles and minifies for production
+```
+yarn build
+```
+
+### Lints and fixes files
+```
+yarn lint
+```
