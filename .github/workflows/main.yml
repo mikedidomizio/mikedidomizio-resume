@@ -15,4 +15,5 @@ jobs:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           # sync to S3, ignore files/folders that we don't need to store in s3
-        run: aws s3 sync ./ s3://www.mikedidomizio.com --exclude ".git*" --exclude ".idea*" --acl public-read
+          # keep package.json it case of rebuilding the project if required
+        run: aws s3 sync ./ s3://www.mikedidomizio.com --exclude ".git*" --exclude ".idea*" --exclude "node_modules" --acl public-read

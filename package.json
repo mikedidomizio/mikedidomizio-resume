@@ -1,0 +1,21 @@
+{
+  "name": "mikedidomizio.com",
+  "version": "1.0.0",
+  "description": "mikedidomizio.com website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "watch-http-server -a 192.168.0.230 -p 8080",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikedidomizio/mikedidomizio.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikedidomizio/mikedidomizio.com/issues"
+  },
+  "homepage": "https://github.com/mikedidomizio/mikedidomizio.com#readme",
+  "devDependencies": {}
+}
