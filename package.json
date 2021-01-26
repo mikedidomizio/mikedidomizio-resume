@@ -6,10 +6,11 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "test": "npm run test:unit && npm run test:snapshot && npm run test:integration",
+    "test": "npm run test:unit && npm run test:snapshot && npm run test:integration && npm run test:visual",
     "test:unit": "jest -- ./src/components/.*.spec.js",
     "test:snapshot": "jest -- ./src/__tests__/App.spec.js",
-    "test:integration": "jest -- src/__tests__/App.integration.spec.js"
+    "test:integration": "jest -- src/__tests__/App.integration.spec.js",
+    "test:visual": "jest -- src/__tests__/App.screenshot.spec.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -27,6 +28,7 @@
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
     "jest": "^26.6.3",
+    "jest-image-snapshot": "^4.3.0",
     "jest-puppeteer": "^4.4.0",
     "jest-serializer-vue": "^2.0.2",
     "puppeteer": "^5.5.0",
