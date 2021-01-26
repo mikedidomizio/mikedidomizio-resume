@@ -1,0 +1,838 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render the entire app 1`] = `
+<div
+  class="wrap"
+  id="app"
+>
+  <div
+    class="row"
+  >
+    <div
+      class="span6"
+    >
+      <h1
+        class="logo"
+      >
+        
+            Mike DiDomizio
+            
+        <br />
+         
+        <small>
+          Software Developer
+        </small>
+      </h1>
+    </div>
+     
+    <div
+      class="span3"
+    >
+      <address
+        class="address-info hide-on-phone"
+      >
+        
+            Ottawa, Ontario
+            
+        <br />
+        K1Y 4T1
+        
+      </address>
+    </div>
+     
+    <div
+      class="span3"
+    >
+      <ul
+        class="contact-info hide-on-phone fixed"
+      >
+        <li>
+          E: 
+          <a
+            href="mailto:mikedidomizio@gmail.com"
+          >
+            mikedidomizio@gmail.com
+          </a>
+        </li>
+         
+        <li>
+          T: 
+          <strong>
+            +1-613-806-0770
+          </strong>
+        </li>
+      </ul>
+    </div>
+  </div>
+   
+  <div
+    class="row"
+  >
+    <div
+      class="span12"
+    >
+      <h2
+        class="cv-profile"
+      >
+        Hi - I'm Mike, and programming is my passion.
+        <br />
+        Check out some of the awesome
+            things I've done below.
+      </h2>
+    </div>
+  </div>
+   
+  <div
+    class="row"
+  >
+    <div
+      class="span3 nbsp"
+    />
+     
+    <div
+      class="span9"
+    >
+      <h3
+        class="cv-section-title"
+      >
+        Working Experience
+      </h3>
+    </div>
+  </div>
+   
+  <div
+    class="row cv-item"
+  >
+    <div
+      class="span3 cv-item-description"
+    >
+      <!---->
+       
+      <h6>
+        <a
+          href="https://www.thalesgroup.com/en/americas/canada"
+        >
+          Thales Canada
+        </a>
+      </h6>
+       
+      <p>
+        
+        <!---->
+        <span
+          class="mute"
+        >
+          July 2017 - Present
+        </span>
+      </p>
+    </div>
+     
+    <div
+      class="span9 cv-item-details"
+    >
+      <h4>
+        Scrum Master/Software Developer
+      </h4>
+       
+      <!---->
+       
+      <p>
+        My involvement and skill set with Thales Canada includes the following:
+      </p>
+       
+      <ul
+        class="disc"
+      >
+        <li>
+          Work closely with Product Managers to t-shirt size features with our team and give estimated
+                delivery
+                date with previous sprint velocity
+            
+        </li>
+         
+        <li>
+          Conduct retrospectives on our sprint and work towards improving the efficiency of the team
+        </li>
+         
+        <li>
+          Hold daily scrums to ensure team is moving forward and be able to help and guide the team
+        </li>
+         
+        <li>
+          Help with Pager Duty incidents to ensure minimal downtime
+        </li>
+         
+        <li>
+          Run lunch and learn events to further develop teams skill sets
+        </li>
+         
+        <li>
+          Complete full stack features
+        </li>
+      </ul>
+    </div>
+  </div>
+   
+  <div
+    class="row cv-item"
+  >
+    <div
+      class="span3 cv-item-description"
+    >
+      <!---->
+       
+      <h6>
+        <a
+          href="https://www.idscorporation.com/na"
+        >
+          IDS North America
+        </a>
+      </h6>
+       
+      <p>
+        
+        <!---->
+        <span
+          class="mute"
+        >
+          July 2015 - July 2017
+        </span>
+      </p>
+    </div>
+     
+    <div
+      class="span9 cv-item-details"
+    >
+      <h4>
+        Lead Developer (Air Navigation Division)
+      </h4>
+       
+      <!---->
+       
+      <p>
+        My involvement and skill set with IDS North America included the following:
+      </p>
+       
+      <ul
+        class="disc"
+      >
+        <li>
+          Lead developer on 12 person Aviation Billing Project
+        </li>
+         
+        <li>
+          Responsible for Sprint planning and backlog refinement
+        </li>
+         
+        <li>
+          Written in Typescript/ES6 with ES7 experimental features
+        </li>
+         
+        <li>
+          Test Driven Development with Karma and Protractor E2E tests
+        </li>
+         
+        <li>
+          SASS integration for compiling CSS
+        </li>
+         
+        <li>
+          Set up of base design, templating, shared AngularJS components for projects
+        </li>
+         
+        <li>
+          Automate deployment of projects through GulpJS and GitLab CI
+        </li>
+         
+        <li>
+          Set up custom Yeoman generators for scaffolding future AngularJS projects
+        </li>
+      </ul>
+    </div>
+  </div>
+   
+  <div
+    class="row cv-item"
+  >
+    <div
+      class="span3 cv-item-description"
+    >
+      <!---->
+       
+      <h6>
+        <a
+          href="http://www.spoonity.com/"
+        >
+          Spoonity
+        </a>
+      </h6>
+       
+      <p>
+        
+        <!---->
+        <span
+          class="mute"
+        >
+          February 2014 - July 2015
+        </span>
+      </p>
+    </div>
+     
+    <div
+      class="span9 cv-item-details"
+    >
+      <h4>
+        Mobile App Developer
+      </h4>
+       
+      <!---->
+       
+      <p>
+        My involvement and skill set with Spoonity included the following:
+      </p>
+       
+      <ul
+        class="disc"
+      >
+        <li>
+          App development for all major mobile platforms (iOS, Android, WP8 and Blackberry)
+        </li>
+         
+        <li>
+          Apps support loyalty, gift card, and mobile ordering services
+        </li>
+         
+        <li>
+          Multilingualism built into apps/dashboard
+        </li>
+         
+        <li>
+          GruntJS set up to automate and minimize time developing apps
+        </li>
+         
+        <li>
+          Dashboard development for generating statistics for merchants
+        </li>
+         
+        <li>
+          Remote updating of mobile apps (eliminate the need to update through the app store)
+        </li>
+      </ul>
+    </div>
+  </div>
+   
+  <div
+    class="row cv-item"
+  >
+    <div
+      class="span3 cv-item-description"
+    >
+      <!---->
+       
+      <h6>
+        <a
+          href="http://www.mideome.com/"
+        >
+          MideoMe
+        </a>
+      </h6>
+       
+      <p>
+        
+        <!---->
+        <span
+          class="mute"
+        >
+          2011 - 2013
+        </span>
+      </p>
+    </div>
+     
+    <div
+      class="span9 cv-item-details"
+    >
+      <h4>
+        Lead Developer
+      </h4>
+       
+      <!---->
+       
+      <p>
+        My involvement and skill set with MideoMe included the following:
+      </p>
+       
+      <ul
+        class="disc"
+      >
+        <li>
+          Helping in architecture and managing a number of remote server setups, databases and
+                infrastructures
+            
+        </li>
+         
+        <li>
+          Developing and maintaining the back-end & front-end from ground-up using CodeIgniter as a
+                framework
+            
+        </li>
+         
+        <li>
+          Planning out solutions using appropriate and convenient scalable applications (like Wowza,
+                Flowplayer, CodeIgniter, and many others)
+            
+        </li>
+         
+        <li>
+          Experience and knowledge in integrating back-end code with Amazon's S3/Cloudfront service for
+                scalability and easy accessibility
+            
+        </li>
+         
+        <li>
+          Excellent time management skills as well as task planning
+        </li>
+         
+        <li>
+          Heavily using OOP and MVC for maintainability
+        </li>
+         
+        <li>
+          Set up and deployed AWS (EC2, S3, Cloudfront) servers for distributing files globally
+        </li>
+         
+        <li>
+          OOP and REST API set-up to ensure ease of cross-platform across multiple devices
+        </li>
+         
+        <li>
+          SQL database set up with multiple servers in mind
+        </li>
+         
+        <li>
+          Integrated with Facebook, Twitter, YouTube, Vimeo and Tumblr
+        </li>
+         
+        <li>
+          Polls the server for new content depending on which page you are on
+        </li>
+         
+        <li>
+          Developed the iOS application using a custom API token for the server back end
+        </li>
+      </ul>
+    </div>
+  </div>
+   
+  <div
+    class="row"
+  >
+    <div
+      class="span3 nbsp"
+    />
+     
+    <div
+      class="span9"
+    >
+      <h3
+        class="cv-section-title"
+      >
+        Education
+      </h3>
+    </div>
+  </div>
+   
+  <div
+    class="row cv-item"
+  >
+    <div
+      class="span3 cv-item-description"
+    >
+      <h6>
+        Police Foundations
+      </h6>
+       
+      <!---->
+       
+      <p>
+        Ontario, CA
+        <br />
+        <span
+          class="mute"
+        >
+          2003 - 2005
+        </span>
+      </p>
+    </div>
+     
+    <div
+      class="span9 cv-item-details"
+    >
+      <h4>
+        Police Foundations Diploma
+      </h4>
+       
+      <p>
+        My time in Police Foundations was exciting to say the least. A few of the many things I learnt there
+            were:
+      </p>
+       
+      <!---->
+       
+      <ul
+        class="disc last"
+      >
+        <li>
+          How to work with people
+        </li>
+         
+        <li>
+          How to deal with stressful/unexpected situations
+        </li>
+         
+        <li>
+          Careful planning
+        </li>
+         
+        <li>
+          Time management skills
+        </li>
+         
+        <li>
+          How to develop as a person
+        </li>
+         
+        <li>
+          Broadening my mindset
+        </li>
+         
+        <li>
+          Building confidence and maintaining my perseverance in achieving my goals successfully
+        </li>
+         
+        <li>
+          Learning how to stay open to constructive criticism/feedback and using it to my advantage
+        </li>
+      </ul>
+    </div>
+  </div>
+   
+  <div
+    class="row"
+  >
+    <div
+      class="span3 nbsp"
+    />
+     
+    <div
+      class="span9"
+    >
+      <h3
+        class="cv-section-title"
+      >
+        Related skills
+      </h3>
+    </div>
+  </div>
+   
+  <div>
+    <div
+      class="row"
+    >
+      <div
+        class="span3 nbsp"
+      >
+         
+      </div>
+       
+      <div
+        class="span9"
+      >
+        <div
+          class="span3 skill"
+        >
+          <h4>
+            HTML5
+          </h4>
+           
+          <div
+            class="level"
+          >
+            <span
+              class="l-9"
+            >
+              extensive knowledge
+            </span>
+          </div>
+           
+          <p>
+            extensive knowledge
+          </p>
+        </div>
+         
+        <div
+          class="span3 skill"
+        >
+          <h4>
+            PHP
+          </h4>
+           
+          <div
+            class="level"
+          >
+            <span
+              class="l-9"
+            >
+              extensive knowledge
+            </span>
+          </div>
+           
+          <p>
+            extensive knowledge
+          </p>
+        </div>
+         
+        <div
+          class="span3 skill"
+        >
+          <h4>
+            PostgreSQL/MySQL
+          </h4>
+           
+          <div
+            class="level"
+          >
+            <span
+              class="l-9"
+            >
+              extensive knowledge
+            </span>
+          </div>
+           
+          <p>
+            extensive knowledge
+          </p>
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="row"
+    >
+      <div
+        class="span3 nbsp"
+      >
+         
+      </div>
+       
+      <div
+        class="span9"
+      >
+        <div
+          class="span3 skill"
+        >
+          <h4>
+            Typescript
+          </h4>
+           
+          <div
+            class="level"
+          >
+            <span
+              class="l-8"
+            >
+              knowledgeable
+            </span>
+          </div>
+           
+          <p>
+            knowledgeable
+          </p>
+        </div>
+         
+        <div
+          class="span3 skill"
+        >
+          <h4>
+            Java
+          </h4>
+           
+          <div
+            class="level"
+          >
+            <span
+              class="l-3"
+            >
+              learning
+            </span>
+          </div>
+           
+          <p>
+            learning
+          </p>
+        </div>
+         
+        <div
+          class="span3 skill"
+        >
+          <h4>
+            Automation
+          </h4>
+           
+          <div
+            class="level"
+          >
+            <span
+              class="l-8"
+            >
+              knowledgeable
+            </span>
+          </div>
+           
+          <p>
+            knowledgeable
+          </p>
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="row"
+    >
+      <div
+        class="span3 nbsp"
+      >
+         
+      </div>
+       
+      <div
+        class="span9"
+      >
+        <div
+          class="span3 skill"
+        >
+          <h4>
+            Angular
+          </h4>
+           
+          <div
+            class="level"
+          >
+            <span
+              class="l-9"
+            >
+              extensive knowledge
+            </span>
+          </div>
+           
+          <p>
+            extensive knowledge
+          </p>
+        </div>
+         
+        <div
+          class="span3 skill"
+        >
+          <h4>
+            NodeJS
+          </h4>
+           
+          <div
+            class="level"
+          >
+            <span
+              class="l-8"
+            >
+              knowledgeable
+            </span>
+          </div>
+           
+          <p>
+            knowledgeable
+          </p>
+        </div>
+         
+        <div
+          class="span3 skill"
+        >
+          <h4>
+            React/Vue
+          </h4>
+           
+          <div
+            class="level"
+          >
+            <span
+              class="l-3"
+            >
+              learning
+            </span>
+          </div>
+           
+          <p>
+            learning
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="row"
+  >
+    <div
+      class="span3 nbsp"
+    />
+     
+    <div
+      class="span9"
+    >
+      <h3
+        class="cv-section-title"
+      >
+        Other skills
+      </h3>
+    </div>
+  </div>
+   
+  <div>
+    <div
+      class="row"
+    >
+      <div
+        class="span3 nbsp"
+      >
+         
+      </div>
+       
+      <div
+        class="span9"
+      >
+        <ul
+          class="disc"
+        >
+          <li>
+            <strong>
+              Systems:
+            </strong>
+             Linux, Windows, OSX
+          </li>
+           
+          <li>
+            <strong>
+              Networking:
+            </strong>
+             FTP/SFTP, SSH
+          </li>
+           
+          <li>
+            <strong>
+              Frameworks:
+            </strong>
+             VueJS, Angular, Express, NestJS
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+`;
