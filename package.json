@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "test": "npm run test:unit && npm run test:snapshot && npm run test:integration && npm run test:visual",
+    "test": "yarn test:unit && yarn test:snapshot && yarn test:integration && yarn test:visual",
     "test:unit": "jest -- ./src/components/.*.spec.js",
     "test:snapshot": "jest -- ./src/__tests__/App.spec.js",
     "test:integration": "jest -- src/__tests__/App.integration.spec.js",
