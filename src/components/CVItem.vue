@@ -3,7 +3,7 @@
     <div class="row cv-item">
         <div class="span3 cv-item-description">
 
-            <h6 v-if="education">Police Foundations</h6>
+            <h6 v-if="education">{{title}}</h6>
             <h6 v-if="!education"><a :href="website">{{title}}</a></h6>
             <p>{{location}}<br v-if="location"/><span class="mute">{{date}}</span></p>
 
