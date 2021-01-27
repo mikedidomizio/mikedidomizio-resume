@@ -5,10 +5,15 @@ describe('E2E tests', () => {
 
     beforeAll(async () => {
         browser = await puppeteer.launch({
+            // required for running with docker container
             headless: true,
+            // required for running with docker container
+            args: ['--no-sandbox'],
         });
         page = await browser.newPage();
-        await page.goto('http://localhost:8080');
+        await page.goto('http://localhost:8080',  { waitUntil: 'domcontentloaded' });
+        // helps to wait for rendering
+        await page.waitForTimeout(2000);
     });
 
     afterAll(() => {

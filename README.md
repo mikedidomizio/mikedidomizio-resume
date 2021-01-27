@@ -35,9 +35,9 @@ yarn test:unit
 # Snapshot testing.  Tests DOM structure for unexpected changes
 yarn test:snapshot
 
-# Integration testing
+# Integration testing.  Tests UI functionality
 yarn test:integration
 
-# Visual regression testing.  Takes screenshots of page and checks for changes between the current one and the previously saved one
+# Visual regression testing.  Compares screenshots from previous ones to find inconsistencies
 yarn test:visual
 ```
