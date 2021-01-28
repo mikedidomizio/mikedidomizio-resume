@@ -16,12 +16,21 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: Build image and test
         run: docker build -t mikedidomizio:mikedidomizio.com .
-      - name: Build project for deployment
+      - name: Install dependencies
         run: |
           # install yarn since we use yarn for lockfiles
           npm install -g yarn
           yarn install
           yarn build
+      - name: Run code coverage
+        run: yarn test:unit
+      - uses: codecov/codecov-action@v1
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          fail_ci_if_error: true # optional (default = false)
+          verbose: true # optional (default = false)
+      - name: Build production version
+        run: yarn build
       - name: Deploy static site to S3 bucket
         if: github.ref == 'refs/heads/master'
         env:
