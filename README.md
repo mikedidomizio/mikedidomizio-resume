@@ -1,5 +1,7 @@
 # mikedidomizio.com
 
+[![codecov](https://codecov.io/gh/mikedidomizio/mikedidomizio.com/branch/master/graph/badge.svg?token=T9EZW2D26M)](https://codecov.io/gh/mikedidomizio/mikedidomizio.com)
+
 Uses Vue to build the website for mikedidomizio.com.
 
 On merge to master, deploys to S3 via GitHub actions.

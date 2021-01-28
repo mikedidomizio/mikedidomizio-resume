@@ -1,7 +1,16 @@
 import Component from '../App.vue';
-import {mount} from "@vue/test-utils";
+import {shallowMount} from "@vue/test-utils";
 
-it('should render the entire app', () => {
-    const wrapper = mount(Component);
-    expect(wrapper.element).toMatchSnapshot();
+let wrapper;
+
+beforeAll(() => {
+    wrapper = shallowMount(Component, {
+        propsData: {
+        }
+    })
+});
+
+it('should render', () => {
+    const element = wrapper.find('*');
+    expect(element.exists()).toBeTruthy();
 });
