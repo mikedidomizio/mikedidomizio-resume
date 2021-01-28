@@ -10,7 +10,7 @@
     "ci:test": "NODE_CI=true yarn test",
 
     "test": "yarn test:unit && yarn test:snapshot && yarn test:integration && yarn test:visual",
-    "test:unit": "jest -- ./src/components/.*.spec.js",
+    "test:unit": "jest --coverage -- ./src/components/.*.spec.js",
     "test:snapshot": "jest -- ./src/__tests__/App.spec.js",
     "test:integration": "jest -- src/__tests__/App.integration.spec.js",
     "test:visual": "jest -- src/__tests__/App.screenshot.spec.js"
@@ -73,6 +73,10 @@
     "transform": {
       "^.+\\.vue$": "vue-jest",
       "^.+\\.(js|jsx)$": "babel-jest"
-    }
+    },
+    "collectCoverageFrom": [
+      "src/**/*.{js,vue}",
+      "!src/main.js"
+    ]
   }
 }

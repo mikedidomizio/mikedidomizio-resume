@@ -6,3 +6,6 @@ dist/
 
 # ignore visual regression testing image differences
 __diff_output__/
+
+
+coverage/

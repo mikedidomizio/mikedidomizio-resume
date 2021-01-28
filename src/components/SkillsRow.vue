@@ -10,6 +10,11 @@
 <script>
   export default {
     name: 'SkillsRow',
+    props: {},
+    data() {
+      // This solely exists to appear in the coverage report
+      return {}
+    }
   }
 </script>
 
