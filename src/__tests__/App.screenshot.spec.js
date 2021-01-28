@@ -26,7 +26,10 @@ describe('Visual regression tests', () => {
             // are committed in `headless: true` otherwise docker tests will fail
             headless: true,
             // required for running with docker container
-            args: ['--no-sandbox'],
+            args: ['--no-sandbox', '--disable-gpu'],
+
+            // for alpine docker image we need to specify the chromium path
+            executablePath: process.env.CHROME_BIN || null,
         });
         page = await browser.newPage();
         await page.goto('http://localhost:8080',  { waitUntil: 'domcontentloaded' });
