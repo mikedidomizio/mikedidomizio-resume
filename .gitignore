@@ -4,5 +4,5 @@ dist/
 
 *.log
 
-# ignore visual regression testing images
+# ignore visual regression testing image differences
 __diff_output__/
