@@ -74,6 +74,7 @@
       "^.+\\.vue$": "vue-jest",
       "^.+\\.(js|jsx)$": "babel-jest"
     },
+    "coverageDirectory": "./coverage/",
     "collectCoverageFrom": [
       "src/**/*.{js,vue}",
       "!src/main.js"
