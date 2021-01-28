@@ -12,6 +12,10 @@
 <script>
   export default {
     name: 'Section',
+    data() {
+      // This solely exists to appear in the coverage report
+      return {}
+    }
   }
 </script>
 

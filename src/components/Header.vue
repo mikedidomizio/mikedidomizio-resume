@@ -37,6 +37,10 @@
         return `mailto:${this.email}`;
       }
     },
-    props: ['city', 'email', 'name', 'phoneNumber', 'position', 'postalCode']
+    props: ['city', 'email', 'name', 'phoneNumber', 'position', 'postalCode'],
+    data() {
+      // This solely exists to appear in the coverage report
+      return {}
+    }
   }
 </script>

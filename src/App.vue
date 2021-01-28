@@ -135,6 +135,10 @@
   export default {
     name: 'App',
     components: {CVItem, Header, PersonalProfile, Section, Skill, SkillsRow, SkillsSection},
+    data() {
+      // This solely exists to appear in the coverage report
+      return {}
+    }
   }
 </script>
 
