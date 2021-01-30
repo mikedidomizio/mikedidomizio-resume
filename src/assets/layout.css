@@ -154,6 +154,11 @@
     .portfolio-items{ padding:60px 0; }
     #contact-form textarea{ width:370px; }
 
+    /* removes the last skill from pushing the next row unnecessarily down */
+    .skill.span3:last-child {
+        margin-bottom: 0;
+    }
+
 }
 
 
