@@ -1,7 +1,20 @@
-name: Upload Website
+name: Build
 on: push
 jobs:
-  deploy:
+  test:
+    name: Run test suites in container
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v1
+        name: Checkout
+
+      - name: Build Docker image and test
+        run: docker build -t mikedidomizio:mikedidomizio.com .
+
+  code_coverage:
+    needs: [test]
+    name: Check code coverage and push coverage data
     runs-on: ubuntu-latest
 
     strategy:
@@ -16,15 +29,11 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: Build Docker image and test
-        run: docker build -t mikedidomizio:mikedidomizio.com .
-
       - name: Install dependencies
         run: |
           # install yarn since we use yarn for lockfiles
           npm install -g yarn
           yarn install
-          yarn build
 
       - name: Run code coverage
         run: yarn test:unit
@@ -37,12 +46,34 @@ jobs:
           fail_ci_if_error: true # optional (default = false)
           verbose: true # optional (default = false)
 
-      - name: Build production version for deployment
+      # we've already installed dependencies and to reduce having to do it in the next step we'll build and save the artifact
+      # if this branch is master
+      - name: Build for deploy
         if: github.ref == 'refs/heads/master'
         run: yarn build
 
-      - name: Configure AWS credentials
+      - name: Save build artifacts for pushing to S3 in deploy job
         if: github.ref == 'refs/heads/master'
+        uses: actions/upload-artifact@v2
+        with:
+          name: build-deploy
+          path: dist/
+
+  deploy:
+    # the following is only done if the branch is master
+    needs: [test, code_coverage]
+    if: github.ref == 'refs/heads/master'
+    name: Deploy to S3
+    runs-on: ubuntu-latest
+
+    steps:
+      # when we download the artifacts it deploys into the current directory
+      - name: Download build for deploy
+        uses: actions/download-artifact@v2
+        with:
+          name: build-deploy
+
+      - name: Configure AWS credentials
         # use hash for safety reasons, using master/tags can introduce security risks into workflow
         uses: aws-actions/configure-aws-credentials@51e2d042f8c5cf77f151685c9338e989dc0b8fc8
         with:
@@ -51,6 +82,5 @@ jobs:
           aws-region: ${{ secrets.AWS_REGION }}
 
       - name: Deploy static site to S3 bucket
-        if: github.ref == 'refs/heads/master'
         run: |
-          aws s3 sync ./dist s3://${{ secrets.AWS_S3_BUCKET }} --exclude "package*.json" --acl public-read
+          aws s3 sync . s3://${{ secrets.AWS_S3_BUCKET }} --exclude "package*.json" --acl public-read
