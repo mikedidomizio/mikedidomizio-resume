@@ -18,19 +18,19 @@
                 <li>Hold daily scrums to ensure team is moving forward and be able to help and guide the team</li>
                 <li>Help with Pager Duty incidents to ensure minimal downtime</li>
                 <li>Run lunch and learn events to further develop teams skill sets</li>
-                <li>Complete full stack features</li>
+                <li>Complete breakdown and implementation of full stack objectives</li>
             </ul>
         </CVItem>
         <CVItem title="IDS North America" website="https://www.idscorporation.com/na"
-                date="July 2015 - July 2017" position="Lead Developer (Air Navigation Division)" previousPosition>
+                date="July 2015 - July 2017" position="Lead Developer" previousPosition>
             <ul class="disc">
-                <li>Lead developer on 12 person Aviation Billing Project</li>
-                <li>Responsible for Sprint planning and backlog refinement</li>
+                <li>Lead developer on 12 person billing project</li>
+                <li>Responsible for sprint planning and backlog refinement</li>
                 <li>Written in Typescript/ES6 with ES7 experimental features</li>
-                <li>Test Driven Development with Karma and Protractor E2E tests</li>
-                <li>SASS integration for compiling CSS</li>
-                <li>Set up of base design, templating, shared AngularJS components for projects</li>
-                <li>Automate deployment of projects through GulpJS and GitLab CI</li>
+                <li>Test Driven Development with Karma/Protractor E2E tests</li>
+                <li>modularized SASS integration for compiling CSS</li>
+                <li>Set up of common design, templating, shared AngularJS components for projects</li>
+                <li>Automate CI/CD of projects through GulpJS and GitLab CI</li>
                 <li>Set up custom Yeoman generators for scaffolding future AngularJS projects</li>
             </ul>
         </CVItem>
@@ -94,29 +94,39 @@
         <SkillsSection>
             <SkillsRow>
                 <Skill v-bind:rank="9">HTML5</Skill>
-                <Skill v-bind:rank="9">PHP</Skill>
-                <Skill v-bind:rank="9">PostgreSQL/MySQL</Skill>
+                <Skill v-bind:rank="8">PHP</Skill>
+                <Skill v-bind:rank="8">PostgreSQL/MySQL</Skill>
             </SkillsRow>
             <SkillsRow>
                 <Skill v-bind:rank="8">Typescript</Skill>
-                <Skill v-bind:rank="3">Java</Skill>
+                <Skill v-bind:rank="5">Java</Skill>
                 <Skill v-bind:rank="8">Automation</Skill>
             </SkillsRow>
             <SkillsRow>
                 <Skill v-bind:rank="9">Angular</Skill>
                 <Skill v-bind:rank="8">NodeJS</Skill>
-                <Skill v-bind:rank="3">React/Vue</Skill>
+                <Skill v-bind:rank="7">React/Vue</Skill>
             </SkillsRow>
         </SkillsSection>
 
-        <Section>Other skills</Section>
+        <Section>Other skills/projects</Section>
 
         <SkillsSection>
             <SkillsRow>
                 <ul class="disc">
-                    <li><strong>Systems:</strong> Linux, Windows, OSX</li>
-                    <li><strong>Networking:</strong> FTP/SFTP, SSH</li>
-                    <li><strong>Frameworks:</strong> VueJS, Angular, Express, NestJS</li>
+                    <li>
+                        Built and maintaining <a href="https://github.com/boxing/boxrec" target="_blank">boxing
+                        project</a> that is used by 21 other projects and has 74 stars. Using NodeJS/Typescript to act
+                        as an API for a boxing database.  Heavily using decorators to maintain changes.
+                    </li>
+                    <li>Working on a <a
+                            href="https://chrome.google.com/webstore/detail/tab-group-helper/llhkcebnebfiaamifhbpehjompplpnae?hl=en&authuser=0"
+                            target="_blank">Tab Group Helper</a> Chrome Extension written in React to improve
+                        productivity/organization of tab groups in people's browsers.
+                    </li>
+                    <li>This CV is built in Vue!  It's <a href="https://github.com/mikedidomizio/mikedidomizio.com">open
+                        source</a>, with various testing setups and dockerized.
+                    </li>
                 </ul>
             </SkillsRow>
         </SkillsSection>

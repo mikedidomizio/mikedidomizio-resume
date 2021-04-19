@@ -17,11 +17,36 @@
         return `l-${this.rank}`
       },
       rankMessage() {
-        switch (this.rank) {
-          case 8: return 'knowledgeable';
-          case 9: return 'extensive knowledge';
-          default: return 'learning';
+        // these rankings are somewhat based off of
+        // http://jim-mcbeath.blogspot.com/2011/12/levels-of-expertise.html?_sm_au_=iPVSqSS5n7DSZQrMQvVMjK0tJ0N7M
+        const ranking = [{
+            experienceLevel: 'pursuing',
+            rank: 0,
+        }, {
+            experienceLevel: 'learning',
+            rank: 4,
+        }, {
+            experienceLevel: 'competent',
+            rank: 6,
+        }, {
+            experienceLevel: 'proficient',
+            rank: 8,
+        }, {
+            experienceLevel: 'expert',
+            rank: 10,
+        }];
+
+        let word = 'pursuing';
+
+        for (let rank of ranking) {
+            if (this.rank >= rank.rank) {
+                word = rank.experienceLevel;
+            } else {
+                return word;
+            }
         }
+
+        return word;
       }
     },
     props: {

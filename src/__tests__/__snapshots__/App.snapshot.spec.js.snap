@@ -167,7 +167,7 @@ exports[`should render the entire app 1`] = `
         </li>
          
         <li>
-          Complete full stack features
+          Complete breakdown and implementation of full stack objectives
         </li>
       </ul>
     </div>
@@ -204,7 +204,7 @@ exports[`should render the entire app 1`] = `
       class="span9 cv-item-details"
     >
       <h4>
-        Lead Developer (Air Navigation Division)
+        Lead Developer
       </h4>
        
       <!---->
@@ -217,11 +217,11 @@ exports[`should render the entire app 1`] = `
         class="disc"
       >
         <li>
-          Lead developer on 12 person Aviation Billing Project
+          Lead developer on 12 person billing project
         </li>
          
         <li>
-          Responsible for Sprint planning and backlog refinement
+          Responsible for sprint planning and backlog refinement
         </li>
          
         <li>
@@ -229,19 +229,19 @@ exports[`should render the entire app 1`] = `
         </li>
          
         <li>
-          Test Driven Development with Karma and Protractor E2E tests
+          Test Driven Development with Karma/Protractor E2E tests
         </li>
          
         <li>
-          SASS integration for compiling CSS
+          modularized SASS integration for compiling CSS
         </li>
          
         <li>
-          Set up of base design, templating, shared AngularJS components for projects
+          Set up of common design, templating, shared AngularJS components for projects
         </li>
          
         <li>
-          Automate deployment of projects through GulpJS and GitLab CI
+          Automate CI/CD of projects through GulpJS and GitLab CI
         </li>
          
         <li>
@@ -560,12 +560,12 @@ exports[`should render the entire app 1`] = `
             <span
               class="l-9"
             >
-              extensive knowledge
+              proficient
             </span>
           </div>
            
           <p>
-            extensive knowledge
+            proficient
           </p>
         </div>
          
@@ -580,14 +580,14 @@ exports[`should render the entire app 1`] = `
             class="level"
           >
             <span
-              class="l-9"
+              class="l-8"
             >
-              extensive knowledge
+              proficient
             </span>
           </div>
            
           <p>
-            extensive knowledge
+            proficient
           </p>
         </div>
          
@@ -602,14 +602,14 @@ exports[`should render the entire app 1`] = `
             class="level"
           >
             <span
-              class="l-9"
+              class="l-8"
             >
-              extensive knowledge
+              proficient
             </span>
           </div>
            
           <p>
-            extensive knowledge
+            proficient
           </p>
         </div>
       </div>
@@ -640,12 +640,12 @@ exports[`should render the entire app 1`] = `
             <span
               class="l-8"
             >
-              knowledgeable
+              proficient
             </span>
           </div>
            
           <p>
-            knowledgeable
+            proficient
           </p>
         </div>
          
@@ -660,7 +660,7 @@ exports[`should render the entire app 1`] = `
             class="level"
           >
             <span
-              class="l-3"
+              class="l-5"
             >
               learning
             </span>
@@ -684,12 +684,12 @@ exports[`should render the entire app 1`] = `
             <span
               class="l-8"
             >
-              knowledgeable
+              proficient
             </span>
           </div>
            
           <p>
-            knowledgeable
+            proficient
           </p>
         </div>
       </div>
@@ -720,12 +720,12 @@ exports[`should render the entire app 1`] = `
             <span
               class="l-9"
             >
-              extensive knowledge
+              proficient
             </span>
           </div>
            
           <p>
-            extensive knowledge
+            proficient
           </p>
         </div>
          
@@ -742,12 +742,12 @@ exports[`should render the entire app 1`] = `
             <span
               class="l-8"
             >
-              knowledgeable
+              proficient
             </span>
           </div>
            
           <p>
-            knowledgeable
+            proficient
           </p>
         </div>
          
@@ -762,14 +762,14 @@ exports[`should render the entire app 1`] = `
             class="level"
           >
             <span
-              class="l-3"
+              class="l-7"
             >
-              learning
+              competent
             </span>
           </div>
            
           <p>
-            learning
+            competent
           </p>
         </div>
       </div>
@@ -789,7 +789,7 @@ exports[`should render the entire app 1`] = `
       <h3
         class="cv-section-title"
       >
-        Other skills
+        Other skills/projects
       </h3>
     </div>
   </div>
@@ -811,24 +811,43 @@ exports[`should render the entire app 1`] = `
           class="disc"
         >
           <li>
-            <strong>
-              Systems:
-            </strong>
-             Linux, Windows, OSX
+            
+                    Built and maintaining 
+            <a
+              href="https://github.com/boxing/boxrec"
+              target="_blank"
+            >
+              boxing
+                    project
+            </a>
+             that is used by 21 other projects and has 74 stars. Using NodeJS/Typescript to act
+                    as an API for a boxing database.  Heavily using decorators to maintain changes.
+                
           </li>
            
           <li>
-            <strong>
-              Networking:
-            </strong>
-             FTP/SFTP, SSH
+            Working on a 
+            <a
+              href="https://chrome.google.com/webstore/detail/tab-group-helper/llhkcebnebfiaamifhbpehjompplpnae?hl=en&authuser=0"
+              target="_blank"
+            >
+              Tab Group Helper
+            </a>
+             Chrome Extension written in React to improve
+                    productivity/organization of tab groups in people's browsers.
+                
           </li>
            
           <li>
-            <strong>
-              Frameworks:
-            </strong>
-             VueJS, Angular, Express, NestJS
+            This CV is built in Vue!  It's 
+            <a
+              href="https://github.com/mikedidomizio/mikedidomizio.com"
+            >
+              open
+                    source
+            </a>
+            , with various testing setups and dockerized.
+                
           </li>
         </ul>
       </div>

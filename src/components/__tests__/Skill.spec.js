@@ -16,19 +16,23 @@ describe('Skill', () => {
 
   it('should return a default value', async() => {
     const element = wrapper.find('p');
-    expect(element.text()).toBe('learning');
+    expect(element.text()).toBe('pursuing');
   });
 
-  it('should return a knowledgeable text if rank is 8', async() => {
-    await wrapper.setProps({'rank': 8});
+  const rankingAndExpect = async(rank, expectWord) => {
+    await wrapper.setProps({rank});
     const element = wrapper.find('p');
-    expect(element.text()).toBe('knowledgeable');
-  });
+    expect(element.text()).toBe(expectWord);
+  };
 
-  it('should return a extensive knowledge text if rank is 9', async() => {
-    await wrapper.setProps({'rank': 9});
-    const element = wrapper.find('p');
-    expect(element.text()).toBe('extensive knowledge');
-  });
+  it('should return text if rank is 4', async() => await rankingAndExpect(2, 'pursuing'));
+
+  it('should return text if rank is 4', async() => await rankingAndExpect(4, 'learning'));
+
+  it('should return text if rank is 6', async() => await rankingAndExpect(6, 'competent'));
+
+  it('should return text if rank is 8', async() => await rankingAndExpect(8, 'proficient'));
+
+  it('should return expert text if rank is 10', async() => await rankingAndExpect(10, 'expert'));
 
 });
