@@ -2,24 +2,12 @@ name: Build
 on: push
 jobs:
   test:
-    name: Run test suites in container
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v1
-        name: Checkout
-
-      - name: Build Docker image and test
-        run: docker build -t mikedidomizio:mikedidomizio.com .
-
-  code_coverage:
-    needs: [test]
-    name: Check code coverage and push coverage data
+    name: Run test suites
     runs-on: ubuntu-latest
 
     strategy:
       matrix:
-        node-version: [12.x]
+        node-version: [ 12.x ]
 
     steps:
       - uses: actions/checkout@v1
@@ -29,15 +17,35 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: Install dependencies
-        run: |
-          # install yarn since we use yarn for lockfiles
-          npm install -g yarn
-          yarn install
+      - name: Restore node_modules
+        uses: actions/cache@v2
+        id: node_modules-cache
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-yarn-v2-${{ hashFiles('yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-v2-
 
-      - name: Run code coverage
-        run: yarn test:unit
+      - name: Install dependencies (if cache doesn't exist)
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: yarn install --frozen-lockfile
 
+      - name: Run tests for CI
+        run: yarn ci:test
+
+      # if the build fails, this should also include the diff output
+      - name: Save build artifacts for pushing to S3 in deploy job
+        uses: actions/upload-artifact@v2
+        with:
+          name: snapshots
+          path: src/__tests__/__image_snapshots__/ci/
+
+  code_coverage:
+    needs: [test]
+    name: Check code coverage and push coverage data
+    runs-on: ubuntu-latest
+
+    steps:
         # use hash for safety reasons, using master/tags can introduce security risks into workflow
       - name: Push Code Coverage
         uses: codecov/codecov-action@2838b54ec211d3f145409dbf867d4b3f22af4637
@@ -46,10 +54,38 @@ jobs:
           fail_ci_if_error: true # optional (default = false)
           verbose: true # optional (default = false)
 
-      # we've already installed dependencies and to reduce having to do it in the next step we'll build and save the artifact
-      # if this branch is master
+  build:
+    needs: [code_coverage]
+    if: github.ref == 'refs/heads/master'
+    name: Build product for deployment
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [ 12.x ]
+
+    steps:
+      - uses: actions/checkout@v1
+        name: Checkout
+
+      - uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Restore node_modules
+        uses: actions/cache@v2
+        id: node_modules-cache
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-yarn-v2-${{ hashFiles('yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-v2-
+
+      - name: Install dependencies (if cache doesn't exist)
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: yarn install --frozen-lockfile
+
       - name: Build for deploy
-        if: github.ref == 'refs/heads/master'
         run: yarn build
 
       - name: Save build artifacts for pushing to S3 in deploy job
@@ -61,7 +97,7 @@ jobs:
 
   deploy:
     # the following is only done if the branch is master
-    needs: [test, code_coverage]
+    needs: [build]
     if: github.ref == 'refs/heads/master'
     name: Deploy to S3
     runs-on: ubuntu-latest
