@@ -94,14 +94,3 @@ jobs:
       - name: Deploy static site to S3 bucket
         run: |
           aws s3 sync . s3://${{ secrets.AWS_S3_BUCKET }} --exclude "package*.json" --acl public-read
-
-  destroy_docker_cache:
-    needs: [build]
-    name: Destroy the docker cache as it doesn't persist after builds
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Destroy cache
-        run: |
-          rm -rf /tmp/.buildx-cache
-          mv /tmp/.buildx-cache-new /tmp/.buildx-cache
