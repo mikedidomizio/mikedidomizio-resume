@@ -9,9 +9,18 @@ jobs:
     steps:
       - uses: actions/checkout@v1
         name: Checkout
-
+      # This is the a separate action that sets up buildx runner
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v1
       - name: Build Docker image and test
         run: docker build -t mikedidomizio:latest .
+      - name: Cache Docker layers
+        uses: actions/cache@v2
+        with:
+          path: /tmp/.buildx-cache
+          key: ${{ runner.os }}-buildx-${{ github.sha }}
+          restore-keys: |
+            ${{ runner.os }}-buildx-
   # Run the test coverage
   test:
     needs: [build_docker_image]
@@ -85,3 +94,14 @@ jobs:
       - name: Deploy static site to S3 bucket
         run: |
           aws s3 sync . s3://${{ secrets.AWS_S3_BUCKET }} --exclude "package*.json" --acl public-read
+
+  destroy_docker_cache:
+    needs: [build]
+    name: Destroy the docker cache as it doesn't persist after builds
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Destroy cache
+        run: |
+          rm -rf /tmp/.buildx-cache
+          mv /tmp/.buildx-cache-new /tmp/.buildx-cache
