@@ -84,6 +84,10 @@ jobs:
         # Temp fix
         # https://github.com/docker/build-push-action/issues/252
         # https://github.com/moby/buildkit/issues/1896
+      - name: Move cache
+        run: |
+          rm -rf /tmp/.buildx-cache
+          mv /tmp/.buildx-cache-new /tmp/.buildx-cache
 
       - name: Run tests
         run: docker run -i --rm -v "$PWD/src/__tests__":/usr/src/app/src/__tests__ mikedidomizio/mikedidomizio.com:latest /bin/bash -c "pm2 start yarn --wait-ready --interpreter bash --name app -- serve; yarn ci:test"
