@@ -50,6 +50,11 @@ jobs:
         with:
           name: mikedidomizioimage
           path: /tmp/mikedidomizio-image
+      - name: Upload artifact2
+        uses: actions/upload-artifact@v2
+        with:
+          name: buildx-cache
+          path: /tmp/.buildx-cache
   # Run the test coverage
   test:
     needs: [build_docker_image]
