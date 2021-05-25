@@ -78,7 +78,7 @@ jobs:
           tags: mikedidomizio/mikedidomizio.com:latest
           cache-from: type=local,src=/tmp/.buildx-cache
           cache-to: type=local,dest=/tmp/.buildx-cache-new
-          outputs: type=oci,dest=/tmp/mikedidomizio-image.tar
+          outputs: type=docker,dest=/tmp/mikedidomizio-image.tar
       - name: Docker load the cache
         run: |
           docker image load --input /tmp/mikedidomizio-image.tar
