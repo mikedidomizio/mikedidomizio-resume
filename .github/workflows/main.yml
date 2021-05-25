@@ -70,7 +70,7 @@ jobs:
         run: |
           docker image load --input /tmp/mikedidomizio-image.tar
       - name: Run tests
-        run: docker run -i --rm -v "$PWD/src/__tests__":/usr/src/app/src/__tests__ mikedidomizio/mikedidomizio.com:latest /bin/bash -c "pm2 start yarn --wait-ready --interpreter bash --name app -- serve; yarn ci:test"
+        run: docker run -i --rm -v "$PWD":/usr/src/app mikedidomizio/mikedidomizio.com:latest /bin/bash -c "pm2 start yarn --wait-ready --interpreter bash --name app -- serve; yarn ci:test"
       # use hash for safety reasons, using master/tags can introduce security risks into workflow
       - name: Push Code Coverage
         uses: codecov/codecov-action@2838b54ec211d3f145409dbf867d4b3f22af4637
