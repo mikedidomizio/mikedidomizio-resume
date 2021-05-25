@@ -51,6 +51,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # Check out code
+      - name: Checkout
+        uses: actions/checkout@v2
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v1
       # So now you can use Actions' own caching!
