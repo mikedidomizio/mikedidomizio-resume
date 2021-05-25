@@ -21,13 +21,7 @@ jobs:
           key: ${{ runner.os }}-buildx-${{ github.sha }}
           restore-keys: |
             ${{ runner.os }}-buildx-
-#      - name: Login to DockerHub
-#        uses: docker/login-action@v1
-#        with:
-#          username: ${{ secrets.DOCKERHUB_USERNAME }}
-#          password: ${{ secrets.DOCKERHUB_TOKEN }}
-      # And make it available for the builds
-      - name: Build and push
+      - name: Build Docker image
         uses: docker/build-push-action@v2
         with:
           context: .
@@ -63,71 +57,76 @@ jobs:
           path: /tmp/.buildx-cache
           key: ${{ runner.os }}-buildx-${{ github.sha }}
           restore-keys: |
-            ${{ runner.os }}-buildx-
-      #      - name: Login to DockerHub
-      #        uses: docker/login-action@v1
-      #        with:
-      #          username: ${{ secrets.DOCKERHUB_USERNAME }}
-      #          password: ${{ secrets.DOCKERHUB_TOKEN }}
-      # And make it available for the builds
-#      - name: Build and push
-#        uses: docker/build-push-action@v2
-#        with:
-#          context: .
-#          push: false
-#          tags: mikedidomizio/mikedidomizio.com:latest
-#          cache-from: type=local,src=/tmp/.buildx-cache
-#          cache-to: type=local,dest=/tmp/.buildx-cache-new
-#          outputs: type=docker,dest=/tmp/mikedidomizio-image.tar
-      - name: Docker load the cache
+      - name: Build Docker image
+        uses: docker/build-push-action@v2
+        with:
+          context: .
+          push: false
+          tags: mikedidomizio/mikedidomizio.com:latest
+          cache-from: type=local,src=/tmp/.buildx-cache
+          cache-to: type=local,dest=/tmp/.buildx-cache-new
+          outputs: type=docker,dest=/tmp/mikedidomizio-image.tar
+      - name: Docker load the tar file
         run: |
           docker image load --input /tmp/mikedidomizio-image.tar
       - name: Run tests
         run: docker run -i --rm -v "$PWD/src/__tests__":/usr/src/app/src/__tests__ mikedidomizio/mikedidomizio.com:latest /bin/bash -c "pm2 start yarn --wait-ready --interpreter bash --name app -- serve; yarn ci:test"
-
-  # Push the code coverage
-  code_coverage:
-    needs: [test]
-    name: Check code coverage and push coverage data
-    runs-on: ubuntu-latest
-
-    steps:
-        # use hash for safety reasons, using master/tags can introduce security risks into workflow
+      # use hash for safety reasons, using master/tags can introduce security risks into workflow
       - name: Push Code Coverage
         uses: codecov/codecov-action@2838b54ec211d3f145409dbf867d4b3f22af4637
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
           fail_ci_if_error: true # optional (default = false)
           verbose: false # optional (default = false)
+      - name: Move cache
+        run: |
+          rm -rf /tmp/.buildx-cache
+          mv /tmp/.buildx-cache-new /tmp/.buildx-cache
 
   # Uses the docker image to build the product
   build:
-    needs: [code_coverage]
+    needs: [test]
     if: github.ref == 'refs/heads/master'
     name: Build product for deployment
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v1
-        name: Checkout
-
-      - uses: satackey/action-docker-layer-caching@v0.0.11
-        # Ignore the failure of a step and avoid terminating the job.
-        continue-on-error: false
+      # Check out code
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v1
+      # So now you can use Actions' own caching!
+      - name: Restore Docker layers
+        uses: actions/cache@v2
         with:
-          key: docker-cache-{hash}
+          path: /tmp/.buildx-cache
+          key: ${{ runner.os }}-buildx-${{ github.sha }}
           restore-keys: |
-            docker-cache-
+      - name: Build Docker image
+        uses: docker/build-push-action@v2
+        with:
+          context: .
+          push: false
+          tags: mikedidomizio/mikedidomizio.com:latest
+          cache-from: type=local,src=/tmp/.buildx-cache
+          cache-to: type=local,dest=/tmp/.buildx-cache-new
+          outputs: type=docker,dest=/tmp/mikedidomizio-image.tar
+      - name: Docker load the tar file
+        run: |
+          docker image load --input /tmp/mikedidomizio-image.tar
 
-      - name: Docker build
-        run: docker run -it --rm -v "$PWD"/dist/usr/src/app/src/dist -it mikedidomizio/mikedidomizio.com:latest /bin/bash -c "yarn build"
       - name: Save build artifacts for pushing to S3 in deploy job
-
         if: github.ref == 'refs/heads/master'
         uses: actions/upload-artifact@v2
         with:
           name: build-deploy
           path: dist/
+
+      - name: Move cache
+        run: |
+          rm -rf /tmp/.buildx-cache
+          mv /tmp/.buildx-cache-new /tmp/.buildx-cache
 
   # Deploys the website to S3
   deploy:
