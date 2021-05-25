@@ -11,9 +11,6 @@ RUN apk update && apk add --no-cache bash chromium chromium-chromedriver
 # We specify the env vars required for the e2e style tests
 ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true CHROME_BIN=/usr/bin/chromium-browser CHROME_PATH=/usr/lib/chromium/ CHROMEDRIVER_PATH=/usr/bin/chromedriver
 
-# Specify to always use bash for yarn commands
-RUN yarn config set script-shell /bin/bash
-
 # Install app dependencies
 COPY package.json yarn.lock ./
 RUN yarn install
