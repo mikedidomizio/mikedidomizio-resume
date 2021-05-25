@@ -7,8 +7,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # Check out code
+      - name: Checkout
+        uses: actions/checkout@v2
       - name: Build
-        uses: action.yml
+        uses: ./.github/actions/build-docker
   # Run the test coverage
   test:
     needs: [build_docker_image]
