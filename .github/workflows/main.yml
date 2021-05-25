@@ -78,9 +78,10 @@ jobs:
           tags: mikedidomizio/mikedidomizio.com:latest
           cache-from: type=local,src=/tmp/.buildx-cache
           cache-to: type=local,dest=/tmp/.buildx-cache-new
+          outputs: type=oci,dest=/tmp/mikedidomizio-image.tar
       - name: Docker load the cache
         run: |
-          docker image load --input /tmp/.buildx-cache-new
+          docker image load --input /tmp/mikedidomizio-image.tar
       - name: Run tests
         run: docker run -i --rm -v "$PWD/src/__tests__":/usr/src/app/src/__tests__ mikedidomizio/mikedidomizio.com:latest /bin/bash -c "pm2 start yarn --wait-ready --interpreter bash --name app -- serve; yarn ci:test"
 
