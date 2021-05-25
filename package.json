@@ -8,10 +8,10 @@
     "lint": "vue-cli-service lint",
     "ci:test": "NODE_CI=true yarn test",
     "test": "yarn test:unit && yarn test:snapshot && yarn test:integration && yarn test:visual",
-    "test:unit": "./node_modules/jest/bin/jest.js --coverage -- ./src/__tests__/App.spec.js ./src/components/.*.spec.js",
-    "test:snapshot": "./node_modules/jest/bin/jest.js -- ./src/__tests__/App.snapshot.spec.js",
-    "test:integration": "./node_modules/jest/bin/jest.js -- src/__tests__/App.integration.spec.js",
-    "test:visual": "./node_modules/jest/bin/jest.js -- src/__tests__/App.screenshot.spec.js"
+    "test:unit": "./node_modules/.bin/jest --coverage -- ./src/__tests__/App.spec.js ./src/components/.*.spec.js",
+    "test:snapshot": "./node_modules/.bin/jest -- ./src/__tests__/App.snapshot.spec.js",
+    "test:integration": "./node_modules/.bin/jest -- src/__tests__/App.integration.spec.js",
+    "test:visual": "./node_modules/.bin/jest -- src/__tests__/App.screenshot.spec.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
