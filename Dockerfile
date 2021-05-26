@@ -12,10 +12,8 @@ RUN apk update && apk add --no-cache bash chromium chromium-chromedriver
 ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true CHROME_BIN=/usr/bin/chromium-browser CHROME_PATH=/usr/lib/chromium/ CHROMEDRIVER_PATH=/usr/bin/chromedriver
 
 # Install app dependencies
-COPY package.json yarn.lock ./
-RUN yarn install
+RUN yarn install && yarn global add jest
 
-# todo only necessary files
 ## Bundle app source
 COPY . .
 
