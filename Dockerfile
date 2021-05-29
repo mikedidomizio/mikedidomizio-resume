@@ -3,7 +3,7 @@
 FROM mhart/alpine-node:12
 
 # Create app directory
-WORKDIR /usr/src/
+WORKDIR /usr/src/app
 
 # install dependencies to run puppeteer inside container
 RUN apk update && apk add --no-cache bash chromium chromium-chromedriver
