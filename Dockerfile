@@ -14,8 +14,6 @@ ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true CHROME_BIN=/usr/bin/chromium-browser C
 # Install app dependencies
 RUN yarn install
 
-ENV PATH /usr/src/node_modules/.bin:$PATH
-
 ## Bundle app source
 COPY . .
 
