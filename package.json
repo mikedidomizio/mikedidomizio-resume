@@ -70,8 +70,8 @@
       "vue"
     ],
     "transform": {
-      "^.+\\.vue$": "vue-jest",
-      "^.+\\.(js|jsx)$": "babel-jest"
+      "^.+\\.vue$": "<rootDir>/node_modules/vue-jest",
+      "^.+\\.(js|jsx)$": "<rootDir>/node_modules/babel-jest"
     },
     "coverageDirectory": "./coverage/",
     "collectCoverageFrom": [
