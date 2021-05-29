@@ -1,6 +1,4 @@
-# builds the docker container and runs the tests against it
-# because the container is a different OS than Windows, there is a separate snapshots directory `ci`
-# for it to compare against
+# the purpose of this Dockerfile is to build and have ready a Linux version that we can test against
 
 FROM mhart/alpine-node:12
 
@@ -14,15 +12,10 @@ RUN apk update && apk add --no-cache bash chromium chromium-chromedriver
 ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true CHROME_BIN=/usr/bin/chromium-browser CHROME_PATH=/usr/lib/chromium/ CHROMEDRIVER_PATH=/usr/bin/chromedriver
 
 # Install app dependencies
-COPY package.json yarn.lock ./
-RUN yarn install
+RUN yarn install && yarn global add jest
 
-# todo only necessary files
-# Bundle app source
+## Bundle app source
 COPY . .
 
-# use pm2 to start the `yarn serve` process in the background under http://localhost:8080
+## Add pm2 so that inside the docker image we can run both the HTTP server and tests within the same terminal
 RUN yarn global add pm2
-
-# keep as one command to ensure the intermediate container for the pm2 process remains running
-RUN pm2 start yarn --wait-ready --interpreter bash --name app -- serve && yarn ci:test
