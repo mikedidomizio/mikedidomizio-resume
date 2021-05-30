@@ -10,6 +10,12 @@ On merge to master, deploys to S3 via GitHub actions.
 
 - Node >= 10.18.1
 
+## Development
+
+A lot of the building and testing is done with Docker.  Before pushing changes, run 
+`./scripts/run-tests-for-coverage.sh mikedidomizio/mikedidomizio.com:latest` which will run the tests and
+generate the updated screenshot outputs  
+
 ### Compiles and hot-reloads for development
 ```
 yarn serve
