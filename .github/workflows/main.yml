@@ -133,7 +133,6 @@ jobs:
           ./scripts/build.sh
 
       - name: Save build artifacts for pushing to S3 in deploy job
-        if: github.ref == 'refs/heads/master'
         uses: actions/upload-artifact@v2
         with:
           name: build-deploy
