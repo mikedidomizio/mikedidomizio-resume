@@ -70,7 +70,6 @@ jobs:
           docker image load --input /tmp/mikedidomizio-image.tar
       - name: Run tests
         run: |
-          chmod +x ./scripts/run-tests-for-coverage.sh
           ./scripts/run-tests-for-coverage.sh
       # use hash for safety reasons, using master/tags can introduce security risks into workflow
       - name: Push Code Coverage
@@ -116,6 +115,9 @@ jobs:
       - name: Docker load the tar file
         run: |
           docker image load --input /tmp/mikedidomizio-image.tar
+      - name: Build for production
+        run: |
+          ./scripts/build.sh
 
       - name: Save build artifacts for pushing to S3 in deploy job
         if: github.ref == 'refs/heads/master'
