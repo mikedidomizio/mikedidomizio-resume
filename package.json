@@ -6,9 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-
     "ci:test": "NODE_CI=true yarn test",
-
     "test": "yarn test:unit && yarn test:snapshot && yarn test:integration && yarn test:visual",
     "test:unit": "./node_modules/.bin/jest --coverage -- ./src/__tests__/App.spec.js ./src/components/.*.spec.js",
     "test:snapshot": "./node_modules/.bin/jest -- ./src/__tests__/App.snapshot.spec.js",
@@ -34,7 +32,9 @@
     "jest-image-snapshot": "^4.3.0",
     "jest-puppeteer": "^4.4.0",
     "jest-serializer-vue": "^2.0.2",
+    "node-sass": "5.0.0",
     "puppeteer": "^5.5.0",
+    "sass-loader": "10.1.1",
     "vue-jest": "^3.0.7",
     "vue-template-compiler": "^2.6.11"
   },
@@ -79,6 +79,9 @@
       "src/**/*.{js,vue}",
       "!src/main.js"
     ],
-    "coveragePathIgnorePatterns": [".*__snapshots__/.*"]
-  }
+    "coveragePathIgnorePatterns": [
+      ".*__snapshots__/.*"
+    ]
+  },
+  "sass-loader": "^10"
 }
