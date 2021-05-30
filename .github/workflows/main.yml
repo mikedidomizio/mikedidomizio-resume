@@ -70,7 +70,7 @@ jobs:
           docker image load --input /tmp/mikedidomizio-image.tar
       - name: Run tests
         run: |
-          ./scripts/run-tests-for-coverage.sh
+          ./scripts/run-tests-for-coverage.sh mikedidomizio/mikedidomizio.com:latest
       # use hash for safety reasons, using master/tags can introduce security risks into workflow
       - name: Push Code Coverage
         uses: codecov/codecov-action@2838b54ec211d3f145409dbf867d4b3f22af4637
@@ -117,7 +117,7 @@ jobs:
           docker image load --input /tmp/mikedidomizio-image.tar
       - name: Build for production
         run: |
-          ./scripts/build.sh
+          ./scripts/build.sh mikedidomizio/mikedidomizio.com:latest
 
       - name: Save build artifacts for pushing to S3 in deploy job
         if: github.ref == 'refs/heads/master'
