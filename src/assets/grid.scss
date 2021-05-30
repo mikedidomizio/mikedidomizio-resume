@@ -40,81 +40,61 @@
 .span9,
 .span10,
 .span11,
-.span12 { float:left; }
+.span12 {
+    float:left; margin-left:20px;
+
+    &:first-child {
+        margin-left:0;
+    }
+}
 
 .span1{
     width: 45px;
-    margin-left:20px;
 }
 
 .span2{
     width: 110px;
-    margin-left:20px;
 }
 
 .span3{
     width: 175px;
-    margin-left:20px;
 }
 
 .span4{
     width: 240px;
-    margin-left:20px;
 }
 
 .span5{
     width: 305px;
-    margin-left:20px;
 }
 
 .span6{
     width: 370px;
-    margin-left:20px;
 }
 
 .span7{
     width: 435px;
-    margin-left:20px;
 }
 
 .span8{
     width: 500px;
-    margin-left:20px;
 }
 
 .span9{
     width: 565px;
-    margin-left:20px;
 }
 
 .span10{
     width: 630px;
-    margin-left:20px;
 }
 
 .span11{
     width: 695px;
-    margin-left:20px;
 }
 
 .span12{
     width: 760px;
-    margin-left:20px;
 }
-
-.span1:first-child,
-.span2:first-child,
-.span3:first-child,
-.span4:first-child,
-.span5:first-child,
-.span6:first-child,
-.span7:first-child,
-.span8:first-child,
-.span9:first-child,
-.span10:first-child,
-.span11:first-child,
-.span12:first-child{ margin-left:0; }
-
 
 /*  #Tablet (Portrait)
 ==================================================================================================== */

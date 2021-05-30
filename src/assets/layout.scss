@@ -24,12 +24,6 @@
 
 .wrap + .wrap{ margin-top:-40px; }
 
-.ie7 body{ padding:80px 0; }
-.ie7 .wrap{ margin:0 auto 40px auto;  }
-
-.ie7 .wrap,
-.ie8 .wrap{ border-right:1px solid #999; border-bottom:1px solid #999; }
-
 .content{}
 
 .logo{ line-height:29px; text-transform:uppercase; margin-bottom:0; color:#E45C3F; }
@@ -56,15 +50,20 @@
 .skill p{ text-align:right; color:#aaa; margin-bottom:0; }
 
 .level{ text-indent:-9999px; background-color:#e2e2e2; height:5px; width:100%; margin:5px 0;  -webkit-border-radius:5px; border-radius:5px; }
-.l-1{ width:10%; display:block; background-color:#359CBD; height:5px; -webkit-border-radius:5px 0 0 5px; border-radius:5px 0 0 5px; }
-.l-2{ width:20%; display:block; background-color:#359CBD; height:5px; -webkit-border-radius:5px 0 0 5px; border-radius:5px 0 0 5px; }
-.l-3{ width:30%; display:block; background-color:#359CBD; height:5px; -webkit-border-radius:5px 0 0 5px; border-radius:5px 0 0 5px; }
-.l-4{ width:40%; display:block; background-color:#359CBD; height:5px; -webkit-border-radius:5px 0 0 5px; border-radius:5px 0 0 5px; }
-.l-5{ width:50%; display:block; background-color:#359CBD; height:5px; -webkit-border-radius:5px 0 0 5px; border-radius:5px 0 0 5px; }
-.l-6{ width:60%; display:block; background-color:#359CBD; height:5px; -webkit-border-radius:5px 0 0 5px; border-radius:5px 0 0 5px; }
-.l-7{ width:70%; display:block; background-color:#359CBD; height:5px; -webkit-border-radius:5px 0 0 5px; border-radius:5px 0 0 5px; }
-.l-8{ width:80%; display:block; background-color:#359CBD; height:5px; -webkit-border-radius:5px 0 0 5px; border-radius:5px 0 0 5px; }
-.l-9{ width:90%; display:block; background-color:#359CBD; height:5px; -webkit-border-radius:5px 0 0 5px; border-radius:5px 0 0 5px; }
+
+@mixin level {
+    display:block; background-color:#359CBD; height:5px; -webkit-border-radius:5px 0 0 5px; border-radius:5px 0 0 5px;
+}
+
+.l-1{ width:10%; @include level; }
+.l-2{ width:20%; @include level; }
+.l-3{ width:30%; @include level; }
+.l-4{ width:40%; @include level; }
+.l-5{ width:50%; @include level; }
+.l-6{ width:60%; @include level; }
+.l-7{ width:70%; @include level; }
+.l-8{ width:80%; @include level; }
+.l-9{ width:90%; @include level; }
 .l-10{ width:100%; display:block; background-color:#359CBD; height:5px; -webkit-border-radius:5px; border-radius:5px; }
 
 

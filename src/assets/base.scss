@@ -100,15 +100,10 @@ h6{
     color:#444;
     font-family:'Open Sans', Arial, sans-serif;
     font-weight:normal;
-}
 
-h1 a,
-h2 a,
-h3 a,
-h4 a,
-h5 a,
-h6 a{
-    font-weight:inherit;
+    a {
+        font-weight:inherit;
+    }
 }
 
 h1{
@@ -282,7 +277,6 @@ ol{ list-style-type:decimal; }
 /* List Helper Classes */
 
 ul.unstyled{ list-style-type:none; } /* unstyled list */
-.ie7 ul.unstyled{ list-style-position:outside; }
 ul.square{ list-style-type:square; } /* list with squares for bullets */
 ul.circle{ list-style-type:circle; }	/* list with discs for bullets */
 
