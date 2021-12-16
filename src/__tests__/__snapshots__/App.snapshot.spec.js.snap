@@ -711,7 +711,7 @@ exports[`should render the entire app 1`] = `
           class="span3 skill"
         >
           <h4>
-            Angular
+            Angular/React/Vue
           </h4>
            
           <div
@@ -755,14 +755,14 @@ exports[`should render the entire app 1`] = `
           class="span3 skill"
         >
           <h4>
-            React/Vue
+            Terraforming
           </h4>
            
           <div
             class="level"
           >
             <span
-              class="l-7"
+              class="l-6"
             >
               competent
             </span>
@@ -812,7 +812,7 @@ exports[`should render the entire app 1`] = `
         >
           <li>
             
-                    Built and maintaining 
+                    Built and maintaining a 
             <a
               href="https://github.com/boxing/boxrec"
               target="_blank"
@@ -820,8 +820,8 @@ exports[`should render the entire app 1`] = `
               boxing
                     project
             </a>
-             that is used by 21 other projects and has 74 stars. Using NodeJS/Typescript to act
-                    as an API for a boxing database.  Heavily using decorators to maintain changes.
+             that has 84 stars. Using NodeJS/Typescript to act
+                    as an API for a boxing website.
                 
           </li>
            
