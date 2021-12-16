@@ -103,9 +103,9 @@
                 <Skill v-bind:rank="8">Automation</Skill>
             </SkillsRow>
             <SkillsRow>
-                <Skill v-bind:rank="9">Angular</Skill>
+                <Skill v-bind:rank="9">Angular/React/Vue</Skill>
                 <Skill v-bind:rank="8">NodeJS</Skill>
-                <Skill v-bind:rank="7">React/Vue</Skill>
+                <Skill v-bind:rank="6">Terraforming</Skill>
             </SkillsRow>
         </SkillsSection>
 
