@@ -33,7 +33,7 @@
     "jest-image-snapshot": "^4.3.0",
     "jest-puppeteer": "^4.4.0",
     "jest-serializer-vue": "^2.0.2",
-    "pdfreader": "^1.2.10",
+    "pdfreader": "^1.2.14",
     "puppeteer": "^5.5.0",
     "vue-jest": "^3.0.7",
     "vue-template-compiler": "^2.6.11"
