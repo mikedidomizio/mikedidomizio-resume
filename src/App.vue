@@ -115,9 +115,9 @@
             <SkillsRow>
                 <ul class="disc">
                     <li>
-                        Built and maintaining <a href="https://github.com/boxing/boxrec" target="_blank">boxing
-                        project</a> that is used by 21 other projects and has 74 stars. Using NodeJS/Typescript to act
-                        as an API for a boxing database.  Heavily using decorators to maintain changes.
+                        Built and maintaining a <a href="https://github.com/boxing/boxrec" target="_blank">boxing
+                        project</a> that has 84 stars. Using NodeJS/Typescript to act
+                        as an API for a boxing website.
                     </li>
                     <li>Working on a <a
                             href="https://chrome.google.com/webstore/detail/tab-group-helper/llhkcebnebfiaamifhbpehjompplpnae?hl=en&authuser=0"
