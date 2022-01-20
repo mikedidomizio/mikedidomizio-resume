@@ -15,10 +15,12 @@
 
             <h4>{{position}}</h4>
 
-            <p v-if="education">My time in {{title}} was exciting to say the least. A few of the many things I learnt there
+            <p v-if="education && !hasNoLineItems">My time in {{title}} was exciting to say the least. A few of the many things I learnt there
                 were:</p>
 
-            <p v-if="!education">My involvement and skill set with {{title}} include{{ previousPosition ? "d" : "s" }} the following:</p>
+            <p v-if="!education && !hasNoLineItems">My involvement and skill set with {{title}} include{{ previousPosition ? "d" : "s" }} the following:</p>
+
+            <p v-if="hasNoLineItems">I'm still working on accomplishments at this company</p>
 
             <slot></slot>
         </div><!-- end .span9 -->
@@ -31,6 +33,7 @@
     props: {
       date: String,
       education: Boolean,
+      hasNoLineItems: Boolean,
       location: {
         type: String,
         required: false,
