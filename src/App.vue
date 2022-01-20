@@ -8,6 +8,8 @@
                 things I've done below."></PersonalProfile>
 
         <Section>Working Experience</Section>
+        <CVItem v-if="false" title="Coveo" website="https://www.coveo.com" hasNoLineItems
+                date="Aug 2021 - Present" position="Senior Frontend Developer (Machine Learning)" />
         <CVItem title="Thales Canada" website="https://www.thalesgroup.com/en/americas/canada"
                 date="July 2017 - Present" position="Scrum Master/Software Developer (Cybersecurity)">
             <ul class="disc">
