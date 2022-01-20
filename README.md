@@ -71,6 +71,6 @@ yarn test:integration
 # Visual regression testing.  Compares screenshots from previous ones to find inconsistencies
 yarn test:visual
 
-# PDF save testing.  For ensuring it follow a standard
+# PDF save testing.  For ensuring it follows common CV standards (<= 2 pages)
 yarn test:pdf
 ```

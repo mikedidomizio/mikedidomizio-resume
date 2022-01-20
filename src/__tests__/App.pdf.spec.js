@@ -2,12 +2,13 @@ const puppeteer = require('puppeteer');
 const fs = require('fs');
 const PdfReader = require('pdfreader').PdfReader;
 
+// todo detect if third page is empty?  A lot of the time it's just an empty page on print
 xdescribe('PDF generating test', () => {
     let browser;
     const pdfFile = 'tmp/generated.pdf';
     const maxNumberOfPages = 2;
 
-    it(`PDF should be less than ${maxNumberOfPages} pages long`, async () => {
+    it(`PDF should be max ${maxNumberOfPages} pages long`, async () => {
         browser = await puppeteer.launch();
         const page = await browser.newPage();
 
