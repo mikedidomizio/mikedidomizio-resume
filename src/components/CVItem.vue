@@ -4,7 +4,10 @@
         <div class="span3 cv-item-description">
 
             <h6 v-if="education">{{title}}</h6>
-            <h6 v-if="!education"><a :href="website">{{title}}</a></h6>
+            <h6 v-if="!education">
+              <a v-if="website" :href="website">{{title}}</a>
+              <span v-else>{{title}}</span>
+            </h6>
             <p>{{location}}<br v-if="location"/><span class="mute">{{date}}</span></p>
 
         </div><!-- end .span3 -->
