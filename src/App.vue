@@ -3,15 +3,18 @@
         <Header name="Mike DiDomizio" position="Software Developer" city="Ottawa, Ontario" postal-code="K1Y 4T1"
                 email="mikedidomizio@gmail.com"
                 github="mikedidomizio"
-                website="mikedidomizio.com"
                 phone-number="+1-613-806-0770">
         </Header>
         <PersonalProfile message="Hi - I'm Mike, and programming is my passion.<br/>Check out some of the awesome
                 things I've done below."></PersonalProfile>
 
         <Section>Working Experience</Section>
-        <CVItem v-if="false" title="Coveo" website="https://www.coveo.com" hasNoLineItems
-                date="Aug 2021 - Present" position="Senior Frontend Developer (Machine Learning)" />
+        <CVItem title="Coveo" website="https://www.coveo.com"
+                date="Aug 2021 - Present" position="Senior Frontend Developer (Machine Learning)">
+          <ul class="disc">
+            <li>Implement visual regression testing to reduce the number of unintended visual changes between releases</li>
+          </ul>
+        </CVItem>
         <CVItem title="Thales Canada" website="https://www.thalesgroup.com/en/americas/canada"
                 date="July 2017 - Present" position="Scrum Master/Software Developer (Cybersecurity)">
             <ul class="disc">
@@ -52,14 +55,11 @@
         <CVItem title="MideoMe"
                 date="2011 - 2013" position="Lead Developer" previousPosition>
             <ul class="disc">
-                <li>Helping in architecture and managing a number of remote server setups, databases and
+                <li>Helped in architecture and managing a number of remote server setups, databases and
                     infrastructures
                 </li>
-                <li>Developing and maintaining the back-end & front-end from ground-up using CodeIgniter as a
-                    framework
-                </li>
-                <li>Planning out solutions using appropriate and convenient scalable applications (like Wowza,
-                    Flowplayer on AWS EC2)
+                <li>Planned out solutions using appropriate and convenient scalable applications (like Wowza,
+                    Flowplayer deployed on AWS EC2)
                 </li>
                 <li>Experience and knowledge in integrating back-end code with Amazon's S3/Cloudfront service for
                     scalability and easy accessibility
@@ -67,7 +67,6 @@
                 <li>Set up and deployed AWS (EC2, S3, Cloudfront, RDS) in different zones for distributing files globally</li>
                 <li>Integrated with Facebook, Twitter, YouTube, Vimeo and Tumblr</li>
                 <li>Polls the server for new content depending on which page you are on</li>
-                <li>Developed an iOS application</li>
             </ul>
         </CVItem>
 
