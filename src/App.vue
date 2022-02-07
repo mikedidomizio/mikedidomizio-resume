@@ -2,6 +2,8 @@
     <div id="app" class="wrap">
         <Header name="Mike DiDomizio" position="Software Developer" city="Ottawa, Ontario" postal-code="K1Y 4T1"
                 email="mikedidomizio@gmail.com"
+                github="mikedidomizio"
+                website="mikedidomizio.com"
                 phone-number="+1-613-806-0770">
         </Header>
         <PersonalProfile message="Hi - I'm Mike, and programming is my passion.<br/>Check out some of the awesome
@@ -15,10 +17,11 @@
             <ul class="disc">
                 <li>Work closely with Product Managers to t-shirt size features with our team and give estimated
                     delivery
-                    date with previous sprint velocity
+                    date by using the team velocity from previous sprints
                 </li>
                 <li>Conduct retrospectives on our sprint and work towards improving the efficiency of the team</li>
                 <li>Hold daily scrums to ensure team is moving forward and be able to help and guide the team</li>
+                <li>Developed entire features autonomously</li>
                 <li>Help with Pager Duty incidents to ensure minimal downtime</li>
                 <li>Run lunch and learn events to further develop teams skill sets</li>
                 <li>Complete breakdown and implementation of full stack objectives</li>
@@ -106,7 +109,7 @@
                     <li>
                         Built and maintaining a <a href="https://github.com/boxing/boxrec" target="_blank">boxing
                         project</a> that has 83 stars. Using NodeJS/Typescript to act
-                        as an API for a boxing website.
+                        as an API for a boxing website.  The data is fetched from a third party and to speed up development, heavily uses decorators.
                     </li>
                     <li>Worked on a <a
                             href="https://chrome.google.com/webstore/detail/tab-group-helper/llhkcebnebfiaamifhbpehjompplpnae?hl=en&authuser=0"
