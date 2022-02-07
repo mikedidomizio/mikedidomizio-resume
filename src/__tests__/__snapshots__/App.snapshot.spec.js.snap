@@ -46,8 +46,13 @@ exports[`should render the entire app 1`] = `
       <ul
         class="contact-info hide-on-phone fixed"
       >
-        <li>
-          E: 
+        <li
+          class="text"
+        >
+          <span>
+            E:
+          </span>
+           
           <a
             href="mailto:mikedidomizio@gmail.com"
           >
@@ -55,11 +60,35 @@ exports[`should render the entire app 1`] = `
           </a>
         </li>
          
-        <li>
-          T: 
+        <li
+          class="text"
+        >
+          <span>
+            T:
+          </span>
+           
           <strong>
             +1-613-806-0770
           </strong>
+        </li>
+         
+        <!---->
+         
+        <li
+          class="img"
+        >
+          <span>
+            <img
+              src="@/assets/GitHub-Mark-32px.png"
+            />
+          </span>
+           
+          <a
+            href="https://www.github.com/mikedidomizio"
+            target="_blank"
+          >
+            mikedidomizio
+          </a>
         </li>
       </ul>
     </div>
@@ -110,6 +139,58 @@ exports[`should render the entire app 1`] = `
        
       <h6>
         <a
+          href="https://www.coveo.com"
+        >
+          Coveo
+        </a>
+      </h6>
+       
+      <p>
+        
+        <!---->
+        <span
+          class="mute"
+        >
+          Aug 2021 - Present
+        </span>
+      </p>
+    </div>
+     
+    <div
+      class="span9 cv-item-details"
+    >
+      <h4>
+        Senior Frontend Developer (Machine Learning)
+      </h4>
+       
+      <!---->
+       
+      <p>
+        My involvement and skill set with Coveo includes the following:
+      </p>
+       
+      <!---->
+       
+      <ul
+        class="disc"
+      >
+        <li>
+          Implement visual regression testing to reduce the number of unintended visual changes between releases
+        </li>
+      </ul>
+    </div>
+  </div>
+   
+  <div
+    class="row cv-item"
+  >
+    <div
+      class="span3 cv-item-description"
+    >
+      <!---->
+       
+      <h6>
+        <a
           href="https://www.thalesgroup.com/en/americas/canada"
         >
           Thales Canada
@@ -140,13 +221,15 @@ exports[`should render the entire app 1`] = `
         My involvement and skill set with Thales Canada includes the following:
       </p>
        
+      <!---->
+       
       <ul
         class="disc"
       >
         <li>
           Work closely with Product Managers to t-shirt size features with our team and give estimated
                 delivery
-                date with previous sprint velocity
+                date by using the team velocity from previous sprints
             
         </li>
          
@@ -156,6 +239,10 @@ exports[`should render the entire app 1`] = `
          
         <li>
           Hold daily scrums to ensure team is moving forward and be able to help and guide the team
+        </li>
+         
+        <li>
+          Developed entire features autonomously
         </li>
          
         <li>
@@ -212,6 +299,8 @@ exports[`should render the entire app 1`] = `
       <p>
         My involvement and skill set with IDS North America included the following:
       </p>
+       
+      <!---->
        
       <ul
         class="disc"
@@ -287,6 +376,8 @@ exports[`should render the entire app 1`] = `
         My involvement and skill set with Spoonity included the following:
       </p>
        
+      <!---->
+       
       <ul
         class="disc"
       >
@@ -351,24 +442,20 @@ exports[`should render the entire app 1`] = `
         My involvement and skill set with MideoMe included the following:
       </p>
        
+      <!---->
+       
       <ul
         class="disc"
       >
         <li>
-          Helping in architecture and managing a number of remote server setups, databases and
+          Helped in architecture and managing a number of remote server setups, databases and
                 infrastructures
             
         </li>
          
         <li>
-          Developing and maintaining the back-end & front-end from ground-up using CodeIgniter as a
-                framework
-            
-        </li>
-         
-        <li>
-          Planning out solutions using appropriate and convenient scalable applications (like Wowza,
-                Flowplayer on AWS EC2)
+          Planned out solutions using appropriate and convenient scalable applications (like Wowza,
+                Flowplayer deployed on AWS EC2)
             
         </li>
          
@@ -388,10 +475,6 @@ exports[`should render the entire app 1`] = `
          
         <li>
           Polls the server for new content depending on which page you are on
-        </li>
-         
-        <li>
-          Developed an iOS application
         </li>
       </ul>
     </div>
@@ -746,7 +829,7 @@ exports[`should render the entire app 1`] = `
                     project
             </a>
              that has 83 stars. Using NodeJS/Typescript to act
-                    as an API for a boxing website.
+                    as an API for a boxing website.  The data is fetched from a third party and to speed up development, heavily uses decorators.
                 
           </li>
            
