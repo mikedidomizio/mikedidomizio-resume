@@ -12,3 +12,6 @@ coverage/
 
 
 tmp/
+
+# ignore screenshots on the local machine regardless of OS
+**/__image_snapshots__/local/

@@ -1,0 +1,866 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render the entire app 1`] = `
+<div
+  class="wrap"
+  id="app"
+>
+  <div
+    class="row"
+  >
+    <div
+      class="span6"
+    >
+      <h1
+        class="logo"
+      >
+        
+            Mike DiDomizio
+            
+        <br />
+         
+        <small>
+          Software Developer
+        </small>
+      </h1>
+    </div>
+     
+    <div
+      class="span3"
+    >
+      <address
+        class="address-info hide-on-phone"
+      >
+        
+            Ottawa, Ontario
+            
+        <br />
+        K1Y 4T1
+        
+      </address>
+    </div>
+     
+    <div
+      class="span3"
+    >
+      <ul
+        class="contact-info hide-on-phone fixed"
+      >
+        <li
+          class="text"
+        >
+          <span>
+            E:
+          </span>
+           
+          <a
+            class="email"
+            href="mailto:mikedidomizio@gmail.com"
+          >
+            mikedidomizio@gmail.com
+          </a>
+        </li>
+         
+        <li
+          class="text"
+        >
+          <span>
+            T:
+          </span>
+           
+          <strong>
+            +1-613-806-0770
+          </strong>
+        </li>
+         
+        <!---->
+         
+        <li
+          class="img"
+        >
+          <span>
+            <img
+              src="@/assets/GitHub-Mark-32px.png"
+            />
+          </span>
+           
+          <a
+            href="https://www.github.com/mikedidomizio"
+            target="_blank"
+          >
+            mikedidomizio
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+   
+  <div
+    class="row"
+  >
+    <div
+      class="span12"
+    >
+      <h2
+        class="cv-profile"
+      >
+        Hi - I'm Mike, and programming is my passion.
+        <br />
+        Check out some of the awesome
+            things I've done below.
+      </h2>
+    </div>
+  </div>
+   
+  <div
+    class="row"
+  >
+    <div
+      class="span3 nbsp"
+    />
+     
+    <div
+      class="span9"
+    >
+      <h3
+        class="cv-section-title"
+      >
+        Working Experience
+      </h3>
+    </div>
+  </div>
+   
+  <div
+    class="row cv-item"
+  >
+    <div
+      class="span3 cv-item-description"
+    >
+      <!---->
+       
+      <h6>
+        <a
+          href="https://www.coveo.com"
+        >
+          Coveo
+        </a>
+      </h6>
+       
+      <p>
+        
+        <!---->
+        <span
+          class="mute"
+        >
+          Aug 2021 - Present
+        </span>
+      </p>
+    </div>
+     
+    <div
+      class="span9 cv-item-details"
+    >
+      <h4>
+        Senior Frontend Developer (Machine Learning)
+      </h4>
+       
+      <!---->
+       
+      <p>
+        My involvement and skill set with Coveo includes the following:
+      </p>
+       
+      <!---->
+       
+      <ul
+        class="disc"
+      >
+        <li>
+          Implement visual regression testing to reduce the number of unintended visual changes between releases
+        </li>
+      </ul>
+    </div>
+  </div>
+   
+  <div
+    class="row cv-item"
+  >
+    <div
+      class="span3 cv-item-description"
+    >
+      <!---->
+       
+      <h6>
+        <a
+          href="https://www.thalesgroup.com/en/americas/canada"
+        >
+          Thales Canada
+        </a>
+      </h6>
+       
+      <p>
+        
+        <!---->
+        <span
+          class="mute"
+        >
+          July 2017 - Aug 2021
+        </span>
+      </p>
+    </div>
+     
+    <div
+      class="span9 cv-item-details"
+    >
+      <h4>
+        Scrum Master/Software Developer (Cybersecurity)
+      </h4>
+       
+      <!---->
+       
+      <p>
+        My involvement and skill set with Thales Canada included the following:
+      </p>
+       
+      <!---->
+       
+      <ul
+        class="disc"
+      >
+        <li>
+          Work closely with Product Managers to t-shirt size features with our team and give estimated
+                delivery
+                date by using the team velocity from previous sprints
+            
+        </li>
+         
+        <li>
+          Conduct retrospectives on our sprint and work towards improving the efficiency of the team
+        </li>
+         
+        <li>
+          Hold daily scrums to ensure team is moving forward and be able to help and guide the team
+        </li>
+         
+        <li>
+          Developed entire features autonomously
+        </li>
+         
+        <li>
+          Help with Pager Duty incidents to ensure minimal downtime
+        </li>
+         
+        <li>
+          Run lunch and learn events to further develop teams skill sets
+        </li>
+         
+        <li>
+          Complete breakdown and implementation of full stack objectives
+        </li>
+      </ul>
+    </div>
+  </div>
+   
+  <div
+    class="row cv-item"
+  >
+    <div
+      class="span3 cv-item-description"
+    >
+      <!---->
+       
+      <h6>
+        <a
+          href="https://www.idscorporation.com/na"
+        >
+          IDS North America
+        </a>
+      </h6>
+       
+      <p>
+        
+        <!---->
+        <span
+          class="mute"
+        >
+          July 2015 - July 2017
+        </span>
+      </p>
+    </div>
+     
+    <div
+      class="span9 cv-item-details"
+    >
+      <h4>
+        Lead Developer (Aircraft Navigation)
+      </h4>
+       
+      <!---->
+       
+      <p>
+        My involvement and skill set with IDS North America included the following:
+      </p>
+       
+      <!---->
+       
+      <ul
+        class="disc"
+      >
+        <li>
+          Lead developer on 12 person billing project
+        </li>
+         
+        <li>
+          Responsible for driving the team to one of the most successful launches of a product within the company
+        </li>
+         
+        <li>
+          Responsible for Sprint planning and backlog refinement
+        </li>
+         
+        <li>
+          Test Driven Development with Karma/Protractor E2E tests
+        </li>
+         
+        <li>
+          Set up of common design, templating, shared AngularJS components for projects
+        </li>
+         
+        <li>
+          Automate CI/CD of projects through GulpJS and GitLab CI
+        </li>
+         
+        <li>
+          Set up custom Yeoman generators for scaffolding future AngularJS projects
+        </li>
+      </ul>
+    </div>
+  </div>
+   
+  <div
+    class="row cv-item"
+  >
+    <div
+      class="span3 cv-item-description"
+    >
+      <!---->
+       
+      <h6>
+        <a
+          href="http://www.spoonity.com/"
+        >
+          Spoonity
+        </a>
+      </h6>
+       
+      <p>
+        
+        <!---->
+        <span
+          class="mute"
+        >
+          February 2014 - July 2015
+        </span>
+      </p>
+    </div>
+     
+    <div
+      class="span9 cv-item-details"
+    >
+      <h4>
+        Mobile App Developer
+      </h4>
+       
+      <!---->
+       
+      <p>
+        My involvement and skill set with Spoonity included the following:
+      </p>
+       
+      <!---->
+       
+      <ul
+        class="disc"
+      >
+        <li>
+          App development for all major mobile platforms (iOS, Android, WP8 and Blackberry)
+        </li>
+         
+        <li>
+          Built a remote updater to remotely update apps outside of the platform stores. Eliminating wait times for app updates
+        </li>
+         
+        <li>
+          Multilingualism built into apps/dashboard
+        </li>
+         
+        <li>
+          GruntJS set up to automate and minimize time developing apps
+        </li>
+         
+        <li>
+          Server side PHP development for supporting consumer apps
+        </li>
+      </ul>
+    </div>
+  </div>
+   
+  <div
+    class="row cv-item"
+  >
+    <div
+      class="span3 cv-item-description"
+    >
+      <!---->
+       
+      <h6>
+        <span>
+          MideoMe
+        </span>
+      </h6>
+       
+      <p>
+        
+        <!---->
+        <span
+          class="mute"
+        >
+          2011 - 2013
+        </span>
+      </p>
+    </div>
+     
+    <div
+      class="span9 cv-item-details"
+    >
+      <h4>
+        Lead Developer
+      </h4>
+       
+      <!---->
+       
+      <p>
+        My involvement and skill set with MideoMe included the following:
+      </p>
+       
+      <!---->
+       
+      <ul
+        class="disc"
+      >
+        <li>
+          Helped in architecture and managing a number of remote server setups, databases and
+                infrastructures
+            
+        </li>
+         
+        <li>
+          Planned out solutions using appropriate and convenient scalable applications (like Wowza,
+                Flowplayer deployed on AWS EC2)
+            
+        </li>
+         
+        <li>
+          Experience and knowledge in integrating back-end code with Amazon's S3/Cloudfront service for
+                scalability and easy accessibility
+            
+        </li>
+         
+        <li>
+          Set up and deployed AWS (EC2, S3, Cloudfront, RDS) in different zones for distributing files globally
+        </li>
+         
+        <li>
+          Integrated with Facebook, Twitter, YouTube, Vimeo and Tumblr
+        </li>
+         
+        <li>
+          Polls the server for new content depending on which page you are on
+        </li>
+      </ul>
+    </div>
+  </div>
+   
+  <div
+    class="row"
+  >
+    <div
+      class="span3 nbsp"
+    />
+     
+    <div
+      class="span9"
+    >
+      <h3
+        class="cv-section-title"
+      >
+        Related skills
+      </h3>
+    </div>
+  </div>
+   
+  <div>
+    <div
+      class="row"
+    >
+      <div
+        class="span3 nbsp"
+      >
+         
+      </div>
+       
+      <div
+        class="span9"
+      >
+        <div
+          class="span3 skill"
+        >
+          <h4>
+            HTML5
+          </h4>
+           
+          <div
+            class="level"
+          >
+            <span
+              class="l-9"
+            >
+              proficient
+            </span>
+          </div>
+           
+          <p>
+            proficient
+          </p>
+        </div>
+         
+        <div
+          class="span3 skill"
+        >
+          <h4>
+            PHP
+          </h4>
+           
+          <div
+            class="level"
+          >
+            <span
+              class="l-7"
+            >
+              competent
+            </span>
+          </div>
+           
+          <p>
+            competent
+          </p>
+        </div>
+         
+        <div
+          class="span3 skill"
+        >
+          <h4>
+            PostgreSQL/MySQL
+          </h4>
+           
+          <div
+            class="level"
+          >
+            <span
+              class="l-8"
+            >
+              proficient
+            </span>
+          </div>
+           
+          <p>
+            proficient
+          </p>
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="row"
+    >
+      <div
+        class="span3 nbsp"
+      >
+         
+      </div>
+       
+      <div
+        class="span9"
+      >
+        <div
+          class="span3 skill"
+        >
+          <h4>
+            Typescript
+          </h4>
+           
+          <div
+            class="level"
+          >
+            <span
+              class="l-8"
+            >
+              proficient
+            </span>
+          </div>
+           
+          <p>
+            proficient
+          </p>
+        </div>
+         
+        <div
+          class="span3 skill"
+        >
+          <h4>
+            Java
+          </h4>
+           
+          <div
+            class="level"
+          >
+            <span
+              class="l-6"
+            >
+              competent
+            </span>
+          </div>
+           
+          <p>
+            competent
+          </p>
+        </div>
+         
+        <div
+          class="span3 skill"
+        >
+          <h4>
+            Automation
+          </h4>
+           
+          <div
+            class="level"
+          >
+            <span
+              class="l-8"
+            >
+              proficient
+            </span>
+          </div>
+           
+          <p>
+            proficient
+          </p>
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="row"
+    >
+      <div
+        class="span3 nbsp"
+      >
+         
+      </div>
+       
+      <div
+        class="span9"
+      >
+        <div
+          class="span3 skill"
+        >
+          <h4>
+            Angular/React/Vue
+          </h4>
+           
+          <div
+            class="level"
+          >
+            <span
+              class="l-9"
+            >
+              proficient
+            </span>
+          </div>
+           
+          <p>
+            proficient
+          </p>
+        </div>
+         
+        <div
+          class="span3 skill"
+        >
+          <h4>
+            NodeJS
+          </h4>
+           
+          <div
+            class="level"
+          >
+            <span
+              class="l-8"
+            >
+              proficient
+            </span>
+          </div>
+           
+          <p>
+            proficient
+          </p>
+        </div>
+         
+        <div
+          class="span3 skill"
+        >
+          <h4>
+            Terraforming
+          </h4>
+           
+          <div
+            class="level"
+          >
+            <span
+              class="l-6"
+            >
+              competent
+            </span>
+          </div>
+           
+          <p>
+            competent
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="row"
+  >
+    <div
+      class="span3 nbsp"
+    />
+     
+    <div
+      class="span9"
+    >
+      <h3
+        class="cv-section-title"
+      >
+        Other skills/projects
+      </h3>
+    </div>
+  </div>
+   
+  <div>
+    <div
+      class="row"
+    >
+      <div
+        class="span3 nbsp"
+      >
+         
+      </div>
+       
+      <div
+        class="span9"
+      >
+        <ul
+          class="disc"
+        >
+          <li>
+            
+                    Currently building a Visual Regression testing front/backend.  Reverse engineering 
+            <a
+              href="https://www.npmjs.com/package/@percy/core"
+              target="_blank"
+            >
+              @percy/core
+            </a>
+            
+                    requests so I can use their plugins for my server.  Using AWS RDS/S3.  After will have containers with different OS/browsers in cloud to test.
+                
+          </li>
+           
+          <li>
+            
+                    Recently built a 
+            <a
+              href="https://covid-testing.vercel.app/"
+              target="_blank"
+            >
+              rapid antigen test appointment helper
+            </a>
+             for most of Canada.
+                    It received a lot of feedback, and I was interviewed by 
+            <a
+              href="https://www.youtube.com/watch?v=JZNTT7g3ytQ"
+              target="_blank"
+            >
+              CTV Toronto
+            </a>
+            
+                    and 
+            <a
+              href="https://www.youtube.com/watch?v=6ofQ82206K8"
+              target="_blank"
+            >
+              CTV Ottawa
+            </a>
+             as well as multiple radio/newspaper interviews, and am
+                    receiving a Local Legend award.  Built with NextJS, queries GraphQL, deploys with Vercel.  20,000-30,000 hits per day around Christmas 2021.
+                
+          </li>
+           
+          <li>
+            
+                    Built and maintaining a 
+            <a
+              href="https://github.com/boxing/boxrec"
+              target="_blank"
+            >
+              boxing
+                    project
+            </a>
+             that has 83 stars. Using NodeJS/Typescript to act
+                    as an API for a boxing website.  The data is fetched from a third party and to speed up development, heavily uses decorators.
+                
+          </li>
+           
+          <li>
+            Worked on a 
+            <a
+              href="https://chrome.google.com/webstore/detail/tab-group-helper/llhkcebnebfiaamifhbpehjompplpnae?hl=en&authuser=0"
+              target="_blank"
+            >
+              Tab Group Helper
+            </a>
+             Chrome Extension written in React to improve
+                    productivity/organization of tab groups in people's browsers.
+                
+          </li>
+           
+          <li>
+            This CV is built in VueJS!  It's 
+            <a
+              href="https://github.com/mikedidomizio/mikedidomizio.com"
+            >
+              open
+                    source
+            </a>
+            , with various testing setups, dockerized, and deploys to S3.
+                
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+`;
