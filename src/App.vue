@@ -16,7 +16,7 @@
           </ul>
         </CVItem>
         <CVItem title="Thales Canada" website="https://www.thalesgroup.com/en/americas/canada"
-                date="July 2017 - Present" position="Scrum Master/Software Developer (Cybersecurity)">
+                date="July 2017 - Aug 2021" position="Scrum Master/Software Developer (Cybersecurity)">
             <ul class="disc">
                 <li>Work closely with Product Managers to t-shirt size features with our team and give estimated
                     delivery
@@ -31,7 +31,7 @@
             </ul>
         </CVItem>
         <CVItem title="IDS North America" website="https://www.idscorporation.com/na"
-                date="July 2015 - July 2017" position="Lead Developer (Aircraft Navigation)" previousPosition>
+                date="July 2015 - July 2017" position="Lead Developer (Aircraft Navigation)">
             <ul class="disc">
                 <li>Lead developer on 12 person billing project</li>
                 <li>Responsible for driving the team to one of the most successful launches of a product within the company</li>
@@ -43,7 +43,7 @@
             </ul>
         </CVItem>
         <CVItem title="Spoonity" website="http://www.spoonity.com/"
-                date="February 2014 - July 2015" position="Mobile App Developer" previousPosition>
+                date="February 2014 - July 2015" position="Mobile App Developer">
             <ul class="disc">
                 <li>App development for all major mobile platforms (iOS, Android, WP8 and Blackberry)</li>
                 <li>Built a remote updater to remotely update apps outside of the platform stores. Eliminating wait times for app updates</li>
@@ -53,7 +53,7 @@
             </ul>
         </CVItem>
         <CVItem title="MideoMe"
-                date="2011 - 2013" position="Lead Developer" previousPosition>
+                date="2011 - 2013" position="Lead Developer">
             <ul class="disc">
                 <li>Helped in architecture and managing a number of remote server setups, databases and
                     infrastructures

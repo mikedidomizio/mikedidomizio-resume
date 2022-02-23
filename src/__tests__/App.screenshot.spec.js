@@ -16,7 +16,7 @@ describe('Visual regression tests', () => {
             }
         } else {
             snapshotOptions = {
-                customSnapshotsDir: path.join(__dirname, "__image_snapshots__/windows")
+                customSnapshotsDir: path.join(__dirname, "__image_snapshots__/local")
             }
         }
 

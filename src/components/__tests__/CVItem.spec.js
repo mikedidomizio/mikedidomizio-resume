@@ -9,6 +9,7 @@ describe('CVItem', () => {
     beforeAll(() => {
         wrapper = shallowMount(Component, {
             propsData: {
+                date: 'July 2010 - August 2012',
                 education: false,
                 website: 'http://google.ca',
                 title: 'Google',
