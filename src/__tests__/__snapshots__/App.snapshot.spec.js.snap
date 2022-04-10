@@ -178,6 +178,18 @@ exports[`should render the entire app 1`] = `
         <li>
           Implement visual regression testing to reduce the number of unintended visual changes between releases
         </li>
+         
+        <li>
+          Write standards and recommendations on contributing code and reviewing to reduce pull request time turnaround
+        </li>
+         
+        <li>
+          Refactoring of legacy Backbone code in React, with RTL added to ensure non-breaking functionality
+        </li>
+         
+        <li>
+          Provide guidance and previous examples of experience to improve the processes in place for my team
+        </li>
       </ul>
     </div>
   </div>
@@ -247,11 +259,15 @@ exports[`should render the entire app 1`] = `
         </li>
          
         <li>
-          Help with Pager Duty incidents to ensure minimal downtime
+          Help with pager duty incidents to ensure minimal downtime
         </li>
          
         <li>
           Run lunch and learn events to further develop teams skill sets
+        </li>
+         
+        <li>
+          Deployed a number of GCP Functions, Pub/Sub, BigQuery via terraforming
         </li>
          
         <li>
@@ -347,7 +363,7 @@ exports[`should render the entire app 1`] = `
        
       <h6>
         <a
-          href="http://www.spoonity.com/"
+          href="https://www.spoonity.com/"
         >
           Spoonity
         </a>
@@ -434,7 +450,7 @@ exports[`should render the entire app 1`] = `
       class="span9 cv-item-details"
     >
       <h4>
-        Lead Developer
+        Software Developer
       </h4>
        
       <!---->
@@ -516,7 +532,7 @@ exports[`should render the entire app 1`] = `
           class="span3 skill"
         >
           <h4>
-            HTML5
+            React/Vue/Angular
           </h4>
            
           <div
@@ -538,21 +554,21 @@ exports[`should render the entire app 1`] = `
           class="span3 skill"
         >
           <h4>
-            PHP
+            NodeJS
           </h4>
            
           <div
             class="level"
           >
             <span
-              class="l-7"
+              class="l-8"
             >
-              competent
+              proficient
             </span>
           </div>
            
           <p>
-            competent
+            proficient
           </p>
         </div>
          
@@ -603,7 +619,7 @@ exports[`should render the entire app 1`] = `
             class="level"
           >
             <span
-              class="l-8"
+              class="l-9"
             >
               proficient
             </span>
@@ -640,7 +656,7 @@ exports[`should render the entire app 1`] = `
           class="span3 skill"
         >
           <h4>
-            Automation
+            Automation/CI/CD
           </h4>
            
           <div
@@ -676,7 +692,7 @@ exports[`should render the entire app 1`] = `
           class="span3 skill"
         >
           <h4>
-            Angular/React/Vue
+            HTML5
           </h4>
            
           <div
@@ -698,21 +714,21 @@ exports[`should render the entire app 1`] = `
           class="span3 skill"
         >
           <h4>
-            NodeJS
+            PHP
           </h4>
            
           <div
             class="level"
           >
             <span
-              class="l-8"
+              class="l-7"
             >
-              proficient
+              competent
             </span>
           </div>
            
           <p>
-            proficient
+            competent
           </p>
         </div>
          
@@ -754,7 +770,7 @@ exports[`should render the entire app 1`] = `
       <h3
         class="cv-section-title"
       >
-        Other skills/projects
+        Other projects/skills
       </h3>
     </div>
   </div>
@@ -777,21 +793,33 @@ exports[`should render the entire app 1`] = `
         >
           <li>
             
-                    Currently building a Visual Regression testing front/backend.  Reverse engineering 
+                    Seeing if I can build an affordable and fully featured 
             <a
-              href="https://www.npmjs.com/package/@percy/core"
+              href="https://github.com/visual-regression-testing"
               target="_blank"
             >
-              @percy/core
+              Visual Regression testing
             </a>
-            
-                    requests so I can use their plugins for my server.  Using AWS RDS/S3.  After will have containers with different OS/browsers in cloud to test.
+             front/backend, using many AWS services and the 
+            <a
+              href="https://github.com/percy/cli"
+              target="_blank"
+            >
+              Percy CLI/core
+            </a>
+            .
                 
           </li>
            
           <li>
             
-                    Recently built a 
+                    Experimenting with Machine Learning to see how accurate I can predict sports betting - specifically boxing and tennis.
+                
+          </li>
+           
+          <li>
+            
+                    In late December 2021, I built a 
             <a
               href="https://covid-testing.vercel.app/"
               target="_blank"
@@ -815,7 +843,7 @@ exports[`should render the entire app 1`] = `
               CTV Ottawa
             </a>
              as well as multiple radio/newspaper interviews, and am
-                    receiving a Local Legend award.  Built with NextJS, queries GraphQL, deploys with Vercel.  20,000-30,000 hits per day around Christmas 2021.
+                    receiving a Local Legend award. Built with NextJS, queries via GraphQL, deploys with Vercel. 20,000-30,000 hits per day around Christmas 2021.
                 
           </li>
            
@@ -829,8 +857,8 @@ exports[`should render the entire app 1`] = `
               boxing
                     project
             </a>
-             that has 83 stars. Using NodeJS/Typescript to act
-                    as an API for a boxing website.  The data is fetched from a third party and to speed up development, heavily uses decorators.
+             that has 86 stars. Using NodeJS/Typescript to act
+                    as an API for a boxing website. The data is fetched from a third party and to speed up development, heavily uses decorators.
                 
           </li>
            
