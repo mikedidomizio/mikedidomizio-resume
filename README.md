@@ -36,7 +36,7 @@ Before pushing changes, run
 new screenshots which will also need to be reviewed/committed for the build to pass.
 
 If it fails, and it probably will, review the diffs and if everything is satisfactory, delete the `__image_snapshots__` 
-directory and run it again.  At this time, the setup is still not perfected.
+directory and run it again.  At this time, the setup is still not seamless.
 
 ### Compiles and hot-reloads for development
 ```

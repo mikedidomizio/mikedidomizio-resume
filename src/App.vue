@@ -6,13 +6,15 @@
                 phone-number="+1-613-806-0770">
         </Header>
         <PersonalProfile message="Hi - I'm Mike, and programming is my passion.<br/>Check out some of the awesome
-                things I've done below."></PersonalProfile>
-
+                things I've done below." />
         <Section>Working Experience</Section>
         <CVItem title="Coveo" website="https://www.coveo.com"
                 date="Aug 2021 - Present" position="Senior Frontend Developer (Machine Learning)">
           <ul class="disc">
             <li>Implement visual regression testing to reduce the number of unintended visual changes between releases</li>
+            <li>Write standards and recommendations on contributing code and reviewing to reduce pull request time turnaround</li>
+            <li>Refactoring of legacy Backbone code in React, with RTL added to ensure non-breaking functionality</li>
+            <li>Provide guidance and previous examples of experience to improve the processes in place for my team</li>
           </ul>
         </CVItem>
         <CVItem title="Thales Canada" website="https://www.thalesgroup.com/en/americas/canada"
@@ -25,8 +27,9 @@
                 <li>Conduct retrospectives on our sprint and work towards improving the efficiency of the team</li>
                 <li>Hold daily scrums to ensure team is moving forward and be able to help and guide the team</li>
                 <li>Developed entire features autonomously</li>
-                <li>Help with Pager Duty incidents to ensure minimal downtime</li>
+                <li>Help with pager duty incidents to ensure minimal downtime</li>
                 <li>Run lunch and learn events to further develop teams skill sets</li>
+                <li>Deployed a number of GCP Functions, Pub/Sub, BigQuery via terraforming</li>
                 <li>Complete breakdown and implementation of full stack objectives</li>
             </ul>
         </CVItem>
@@ -42,7 +45,7 @@
                 <li>Set up custom Yeoman generators for scaffolding future AngularJS projects</li>
             </ul>
         </CVItem>
-        <CVItem title="Spoonity" website="http://www.spoonity.com/"
+        <CVItem title="Spoonity" website="https://www.spoonity.com/"
                 date="February 2014 - July 2015" position="Mobile App Developer">
             <ul class="disc">
                 <li>App development for all major mobile platforms (iOS, Android, WP8 and Blackberry)</li>
@@ -53,7 +56,7 @@
             </ul>
         </CVItem>
         <CVItem title="MideoMe"
-                date="2011 - 2013" position="Lead Developer">
+                date="2011 - 2013" position="Software Developer">
             <ul class="disc">
                 <li>Helped in architecture and managing a number of remote server setups, databases and
                     infrastructures
@@ -74,41 +77,43 @@
 
         <SkillsSection>
             <SkillsRow>
-                <Skill v-bind:rank="9">HTML5</Skill>
-                <Skill v-bind:rank="7">PHP</Skill>
+                <Skill v-bind:rank="9">React/Vue/Angular</Skill>
+                <Skill v-bind:rank="8">NodeJS</Skill>
                 <Skill v-bind:rank="8">PostgreSQL/MySQL</Skill>
             </SkillsRow>
             <SkillsRow>
-                <Skill v-bind:rank="8">Typescript</Skill>
+                <Skill v-bind:rank="9">Typescript</Skill>
                 <Skill v-bind:rank="6">Java</Skill>
-                <Skill v-bind:rank="8">Automation</Skill>
+                <Skill v-bind:rank="8">Automation/CI/CD</Skill>
             </SkillsRow>
             <SkillsRow>
-                <Skill v-bind:rank="9">Angular/React/Vue</Skill>
-                <Skill v-bind:rank="8">NodeJS</Skill>
+                <Skill v-bind:rank="9">HTML5</Skill>
+                <Skill v-bind:rank="7">PHP</Skill>
                 <Skill v-bind:rank="6">Terraforming</Skill>
             </SkillsRow>
         </SkillsSection>
 
-        <Section>Other skills/projects</Section>
+        <Section>Other projects/skills</Section>
 
         <SkillsSection>
             <SkillsRow>
                 <ul class="disc">
                     <li>
-                        Currently building a Visual Regression testing front/backend.  Reverse engineering <a href="https://www.npmjs.com/package/@percy/core" target="_blank">@percy/core</a>
-                        requests so I can use their plugins for my server.  Using AWS RDS/S3.  After will have containers with different OS/browsers in cloud to test.
+                        Seeing if I can build an affordable and fully featured <a href="https://github.com/visual-regression-testing" target="_blank">Visual Regression testing</a> front/backend, using many AWS services and the <a href="https://github.com/percy/cli" target="_blank">Percy CLI/core</a>.
                     </li>
                     <li>
-                        Recently built a <a href="https://covid-testing.vercel.app/" target="_blank">rapid antigen test appointment helper</a> for most of Canada.
+                        Experimenting with Machine Learning to see how accurate I can predict sports betting - specifically boxing and tennis.
+                    </li>
+                    <li>
+                        In late December 2021, I built a <a href="https://covid-testing.vercel.app/" target="_blank">rapid antigen test appointment helper</a> for most of Canada.
                         It received a lot of feedback, and I was interviewed by <a href="https://www.youtube.com/watch?v=JZNTT7g3ytQ" target="_blank">CTV Toronto</a>
                         and <a href="https://www.youtube.com/watch?v=6ofQ82206K8" target="_blank">CTV Ottawa</a> as well as multiple radio/newspaper interviews, and am
-                        receiving a Local Legend award.  Built with NextJS, queries GraphQL, deploys with Vercel.  20,000-30,000 hits per day around Christmas 2021.
+                        receiving a Local Legend award. Built with NextJS, queries via GraphQL, deploys with Vercel. 20,000-30,000 hits per day around Christmas 2021.
                     </li>
                     <li>
                         Built and maintaining a <a href="https://github.com/boxing/boxrec" target="_blank">boxing
-                        project</a> that has 83 stars. Using NodeJS/Typescript to act
-                        as an API for a boxing website.  The data is fetched from a third party and to speed up development, heavily uses decorators.
+                        project</a> that has 86 stars. Using NodeJS/Typescript to act
+                        as an API for a boxing website. The data is fetched from a third party and to speed up development, heavily uses decorators.
                     </li>
                     <li>Worked on a <a
                             href="https://chrome.google.com/webstore/detail/tab-group-helper/llhkcebnebfiaamifhbpehjompplpnae?hl=en&authuser=0"
