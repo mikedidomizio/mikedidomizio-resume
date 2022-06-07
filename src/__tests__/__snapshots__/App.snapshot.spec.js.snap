@@ -255,7 +255,7 @@ exports[`should render the entire app 1`] = `
         </li>
          
         <li>
-          Developed entire features autonomously
+          Complete breakdown and autonomous implementation of full stack objectives
         </li>
          
         <li>
@@ -267,11 +267,7 @@ exports[`should render the entire app 1`] = `
         </li>
          
         <li>
-          Deployed a number of GCP Functions, Pub/Sub, BigQuery via terraforming
-        </li>
-         
-        <li>
-          Complete breakdown and implementation of full stack objectives
+          Deployed a number of GCP Functions, Pub/Sub, BigQuery
         </li>
       </ul>
     </div>

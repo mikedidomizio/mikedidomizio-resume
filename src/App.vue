@@ -26,11 +26,10 @@
                 </li>
                 <li>Conduct retrospectives on our sprint and work towards improving the efficiency of the team</li>
                 <li>Hold daily scrums to ensure team is moving forward and be able to help and guide the team</li>
-                <li>Developed entire features autonomously</li>
+                <li>Complete breakdown and autonomous implementation of full stack objectives</li>
                 <li>Help with pager duty incidents to ensure minimal downtime</li>
                 <li>Run lunch and learn events to further develop teams skill sets</li>
-                <li>Deployed a number of GCP Functions, Pub/Sub, BigQuery via terraforming</li>
-                <li>Complete breakdown and implementation of full stack objectives</li>
+                <li>Deployed a number of GCP Functions, Pub/Sub, BigQuery</li>
             </ul>
         </CVItem>
         <CVItem title="IDS North America" website="https://www.idscorporation.com/na"
