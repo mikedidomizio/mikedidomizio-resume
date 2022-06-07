@@ -14,7 +14,7 @@
             <li>Implement visual regression testing to reduce the number of unintended visual changes between releases</li>
             <li>Write standards and recommendations on contributing code and reviewing to reduce pull request time turnaround</li>
             <li>Refactoring of legacy Backbone code in React, with RTL added to ensure non-breaking functionality</li>
-            <li>Provide guidance and previous examples of experience to improve the processes in place for my team</li>
+            <li>Provide guidance from previous experience to improve the processes in place for my team</li>
           </ul>
         </CVItem>
         <CVItem title="Thales Canada" website="https://www.thalesgroup.com/en/americas/canada"
@@ -102,7 +102,7 @@
                         Seeing if I can build an affordable and fully featured <a href="https://github.com/visual-regression-testing" target="_blank">Visual Regression testing</a> front/backend, using many AWS services and the <a href="https://github.com/percy/cli" target="_blank">Percy CLI/core</a>.
                     </li>
                     <li>
-                        Experimenting with Machine Learning to see how accurate I can predict sports betting - specifically boxing and tennis.
+                        Experimenting with Machine Learning to see how accurate my models can predict sports outcomes - specifically boxing and tennis.
                     </li>
                     <li>
                         In late December 2021, I built a <a href="https://covid-testing.vercel.app/" target="_blank">rapid antigen test appointment helper</a> for most of Canada.

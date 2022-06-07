@@ -188,7 +188,7 @@ exports[`should render the entire app 1`] = `
         </li>
          
         <li>
-          Provide guidance and previous examples of experience to improve the processes in place for my team
+          Provide guidance from previous experience to improve the processes in place for my team
         </li>
       </ul>
     </div>
@@ -813,7 +813,7 @@ exports[`should render the entire app 1`] = `
            
           <li>
             
-                    Experimenting with Machine Learning to see how accurate I can predict sports betting - specifically boxing and tennis.
+                    Experimenting with Machine Learning to see how accurate my models can predict sports outcomes - specifically boxing and tennis.
                 
           </li>
            
