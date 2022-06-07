@@ -55,10 +55,6 @@
 .skill h4{ line-height:22px; margin-bottom:10px; }
 .skill p{ text-align:right; color:#aaa; margin-bottom:0; }
 
-.portfolio-items{ background-color:#f5f5f5; border-bottom:1px solid #efefef; padding:80px; margin:0px -80px 40px -80px; }
-.portfolio-items h2{ font-weight:300; }
-.portfolio-items .slides ul{ margin-left:0; margin-bottom:20px; }
-
 .contact-info-2{ list-style:none; }
 .contact-info-2 li{ float:left; margin-left:5px; font-size:16px; }
 
@@ -94,7 +90,6 @@
     .wrap{ width:auto; padding:60px 0; margin:40px auto; -webkit-box-shadow: 2px 2px 1px #606060; box-shadow: 2px 2px 1px #606060; }
     .wrap + .wrap{ margin-top:0px; }
 
-    .portfolio-items{ padding:80px 0; margin:0 0 40px 0; }
     #contact-form textarea{ width:255px; }
     #contact-form input[type="text"]{ width:205px; }
 }
@@ -119,7 +114,6 @@
     .cv-item-description h6{ padding:10px; }
     .cv-item{ margin-bottom:40px; }
     .cv-section-title{ color:#E45C3F; margin:-10px 0 40px 0; }
-    .portfolio-items{ padding:40px 0; margin:0 0 40px 0; }
     .skill{ margin-bottom:20px; }
 
     .contact-info-2{ margin-top:20px; }
@@ -138,7 +132,6 @@
     body{ }
 
     .wrap{ width:auto; }
-    .portfolio-items{ padding:60px 0; }
     #contact-form textarea{ width:370px; }
 
     /* removes the last skill from pushing the next row unnecessarily down */
@@ -156,7 +149,6 @@
 
     body{ padding:0; background-color:#fff; }
     .wrap{ padding:40px 80px; -webkit-box-shadow:none; box-shadow:none; }
-    .portfolio-items{ padding:40px 0; border-bottom:0; }
 
     .contact-info-2 li{ float:none; }
     .contact-info-2 .hide-on-phone{ display:none; }
