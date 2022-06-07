@@ -150,6 +150,9 @@
     body{ padding:0; background-color:#fff; }
     .wrap{ padding:40px 80px; -webkit-box-shadow:none; box-shadow:none; }
 
+    .cv-section-title { margin-bottom: 20px }
+    .cv-item { margin-bottom: 24px }
+
     .contact-info-2 li{ float:none; }
     .contact-info-2 .hide-on-phone{ display:none; }
 }
