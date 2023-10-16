@@ -17,5 +17,8 @@ COPY . .
 # Install app dependencies
 RUN yarn install
 
+# Install Puppeteer
+RUN node node_modules/puppeteer/install.js
+
 ## Add pm2 so that inside the docker image we can run both the HTTP server and tests within the same terminal
 RUN yarn global add pm2
