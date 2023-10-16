@@ -15,7 +15,7 @@ Has unit testing to ensure no unwanted changes are made to the project.
 
 ### Requirements
 
-- Node >= 10.18.1
+- NPM 16.10.0
 
 ```
 $ yarn install (OR) npm install // install dependencies

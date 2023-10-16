@@ -11,12 +11,11 @@ describe('E2E tests', () => {
             args: ['--no-sandbox', '--disable-gpu'],
 
             // for alpine docker image we need to specify the chromium path
+            // eslint-disable-next-line no-undef
             executablePath: process.env.CHROME_BIN || null,
         });
         page = await browser.newPage();
         await page.goto('http://localhost:8080',  { waitUntil: 'domcontentloaded' });
-        // helps to wait for rendering
-        await page.waitForTimeout(2000);
     });
 
     afterAll(() => {
