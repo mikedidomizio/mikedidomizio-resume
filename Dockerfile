@@ -1,6 +1,6 @@
 # the purpose of this Dockerfile is to build and have ready a Linux version that we can test against
 
-FROM node/16.10-alpine
+FROM node:16.10.0-buster
 
 # Create app directory
 WORKDIR /usr/src/app
