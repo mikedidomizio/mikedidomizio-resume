@@ -1,6 +1,6 @@
 # the purpose of this Dockerfile is to build and have ready a Linux version that we can test against
 
-FROM node:16.10.0-buster
+FROM node:16.10.0-alpine
 
 # Create app directory
 WORKDIR /usr/src/app
@@ -14,14 +14,8 @@ ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true CHROME_BIN=/usr/bin/chromium-browser C
 ## Bundle app source
 COPY . .
 
-## Skips the Chromium download
-## encountered this on MacOS
-## https://github.com/puppeteer/puppeteer/issues/7740#issuecomment-970490323
-ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD true
-
 # Install app dependencies
 RUN yarn install
-
 
 ## Add pm2 so that inside the docker image we can run both the HTTP server and tests within the same terminal
 RUN yarn global add pm2
