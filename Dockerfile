@@ -2,11 +2,13 @@
 
 FROM node:16.10.0-alpine
 
+ARG CHROMIUM=116.0.5845.140-r0
+
 # Create app directory
 WORKDIR /usr/src/app
 
 # install dependencies to run puppeteer inside container
-RUN apk update && apk add --no-cache bash chromium chromium-chromedriver
+RUN apk update && apk add --no-cache bash chromium@edge=$CHROMIUM chromium-chromedriver python3 py3-pip g++ make
 
 # We specify the env vars required for the e2e style tests
 ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true CHROME_BIN=/usr/bin/chromium-browser CHROME_PATH=/usr/lib/chromium/ CHROMEDRIVER_PATH=/usr/bin/chromedriver
