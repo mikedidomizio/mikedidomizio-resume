@@ -2,8 +2,6 @@
 
 FROM node:18.15.0-alpine
 
-ARG CHROMIUM=116.0.5845.140-r0
-
 # Create app directory
 WORKDIR /usr/src/app
 
@@ -18,9 +16,6 @@ COPY . .
 
 # Install app dependencies
 RUN yarn install
-
-# Install Puppeteer
-RUN node node_modules/puppeteer/install.js
 
 ## Add pm2 so that inside the docker image we can run both the HTTP server and tests within the same terminal
 RUN yarn global add pm2
