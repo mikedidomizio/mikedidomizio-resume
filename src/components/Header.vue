@@ -24,7 +24,7 @@
                 <li class="text"><span>E:</span> <a :href="formattedEmail()" class="email">{{email}}</a></li>
                 <li class="text"><span>T:</span> <strong>{{phoneNumber}}</strong></li>
                 <li v-if="website" class="text"><span>W:</span> <a :href="formattedWebsite()" class="website" target="_blank">{{website}}</a></li>
-                <li class="img"><span><img src="@/assets/GitHub-Mark-32px.png" /></span> <a :href="'https://www.github.com/' + github" target="_blank">{{github}}</a></li>
+                <li class="img"><span><img alt="" src="@/assets/GitHub-Mark-32px.png" /></span> <a :href="'https://www.github.com/' + github" target="_blank">{{github}}</a></li>
             </ul>
 
         </div><!-- end .span3 -->

@@ -1,6 +1,6 @@
 <template>
     <div id="app" class="wrap">
-        <Header name="Mike DiDomizio" position="Software Developer" city="Ottawa, Ontario" postal-code="K1Y 4T1"
+        <Header name="Mike DiDomizio" position="Software Developer" city="Ottawa, Ontario"
                 email="mikedidomizio@gmail.com"
                 github="mikedidomizio"
                 phone-number="+1-613-806-0770">
