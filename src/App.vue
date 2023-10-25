@@ -87,17 +87,17 @@
 
         <SkillsSection>
             <SkillsRow>
-                <Skill v-bind:rank="9">React/Vue/Angular</Skill>
-                <Skill v-bind:rank="8">NodeJS</Skill>
+                <Skill v-bind:rank="10">Next/React</Skill>
+                <Skill v-bind:rank="9">NodeJS</Skill>
                 <Skill v-bind:rank="8">PostgreSQL/MySQL</Skill>
             </SkillsRow>
             <SkillsRow>
                 <Skill v-bind:rank="9">Typescript</Skill>
                 <Skill v-bind:rank="6">Java</Skill>
-                <Skill v-bind:rank="8">Automation/CI/CD</Skill>
+                <Skill v-bind:rank="9">Automation/CI/CD</Skill>
             </SkillsRow>
             <SkillsRow>
-                <Skill v-bind:rank="9">HTML5</Skill>
+                <Skill v-bind:rank="9">HTML</Skill>
                 <Skill v-bind:rank="7">PHP</Skill>
                 <Skill v-bind:rank="6">Terraforming</Skill>
             </SkillsRow>
@@ -109,21 +109,16 @@
             <SkillsRow>
                 <ul class="disc">
                     <li>
-                        Seeing if I can build an affordable and fully featured <a href="https://github.com/visual-regression-testing" target="_blank">Visual Regression testing</a> front/backend, using many AWS services and the <a href="https://github.com/percy/cli" target="_blank">Percy CLI/core</a>.
+                        Transcriber Summarizer - I wanted a way to summarize long meetings. Using AWS Transcribe and OpenAI via NextJS.
                     </li>
                     <li>
-                        Experimenting with Machine Learning to see how accurate my models can predict sports outcomes - specifically boxing and tennis.
+                        Rimworld Progress Renderer Image Stitcher - Using Electron and ffmpeg, the application will read images from the game and stitch them together, outputting a video in MP4 format.
                     </li>
                     <li>
                         In late December 2021, I built a <a href="https://covid-testing.vercel.app/" target="_blank">rapid antigen test appointment helper</a> for most of Canada.
                         It received a lot of feedback, and I was interviewed by <a href="https://www.youtube.com/watch?v=JZNTT7g3ytQ" target="_blank">CTV Toronto</a>
                         and <a href="https://www.youtube.com/watch?v=6ofQ82206K8" target="_blank">CTV Ottawa</a> as well as multiple radio/newspaper interviews, and am
                         receiving a Local Legend award. Built with NextJS, queries via GraphQL, deploys with Vercel. 20,000-30,000 hits per day around Christmas 2021.
-                    </li>
-                    <li>
-                        Built and maintaining a <a href="https://github.com/boxing/boxrec" target="_blank">boxing
-                        project</a> that has 86 stars. Using NodeJS/Typescript to act
-                        as an API for a boxing website. The data is fetched from a third party and to speed up development, heavily uses decorators.
                     </li>
                     <li>Worked on a <a
                             href="https://chrome.google.com/webstore/detail/tab-group-helper/llhkcebnebfiaamifhbpehjompplpnae?hl=en&authuser=0"
