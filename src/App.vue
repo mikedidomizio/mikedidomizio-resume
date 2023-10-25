@@ -8,8 +8,19 @@
         <PersonalProfile message="Hi - I'm Mike, and programming is my passion.<br/>Check out some of the awesome
                 things I've done below." />
         <Section>Working Experience</Section>
+        <CVItem title="theScore" website="https://www.thescore.bet"
+                date="Aug 2022 - Present" position="Senior Software Developer, Team Lead">
+            <ul class="disc">
+                <li>Write guidelines and standards on building complex shareable components for our monorepo</li>
+                <li>Mentoring new team on React concepts, proper testing, best practices</li>
+                <li>Create software to bypass daemon service to reduce testing friction</li>
+                <li>Assisting in product management to ensure we meet deadlines with new and existing products</li>
+                <li>Learning the various pain points from team members, taking the feedback and implementing
+                    solutions to improve productivity and developer experience</li>
+            </ul>
+        </CVItem>
         <CVItem title="Coveo" website="https://www.coveo.com"
-                date="Aug 2021 - Present" position="Senior Frontend Developer (Machine Learning)">
+                date="Aug 2021 - August 2022" position="Senior Frontend Developer (Machine Learning)">
           <ul class="disc">
             <li>Implement visual regression testing to reduce the number of unintended visual changes between releases</li>
             <li>Write standards and recommendations on contributing code and reviewing to reduce pull request time turnaround</li>
