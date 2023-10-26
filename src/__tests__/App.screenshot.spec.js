@@ -9,7 +9,7 @@ describe('Visual regression tests', () => {
     let snapshotOptions = {};
 
     beforeAll(async () => {
-        // running in CI will produce different results therefire we save to a different directory
+        // running in CI will produce different results therefore we save to a different directory
         if (process.env.NODE_CI) {
             snapshotOptions = {
                 customSnapshotsDir: path.join(__dirname, "__image_snapshots__/ci")

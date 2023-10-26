@@ -35,7 +35,7 @@ exports[`should render the entire app 1`] = `
             Ottawa, Ontario
             
         <br />
-        K1Y 4T1
+        
         
       </address>
     </div>
@@ -80,6 +80,7 @@ exports[`should render the entire app 1`] = `
         >
           <span>
             <img
+              alt=""
               src="@/assets/GitHub-Mark-32px.png"
             />
           </span>
@@ -140,6 +141,75 @@ exports[`should render the entire app 1`] = `
        
       <h6>
         <a
+          href="https://www.thescore.bet"
+        >
+          theScore
+        </a>
+      </h6>
+       
+      <p>
+        
+        <!---->
+        <span
+          class="mute"
+        >
+          Aug 2022 - Present
+        </span>
+      </p>
+    </div>
+     
+    <div
+      class="span9 cv-item-details"
+    >
+      <h4>
+        Senior Software Developer, Team Lead
+      </h4>
+       
+      <!---->
+       
+      <p>
+        My involvement and skill set with theScore includes the following:
+      </p>
+       
+      <!---->
+       
+      <ul
+        class="disc"
+      >
+        <li>
+          Write guidelines and standards on building complex shareable components for our monorepo
+        </li>
+         
+        <li>
+          Mentoring new team on React concepts, proper testing, best practices
+        </li>
+         
+        <li>
+          Create software to bypass daemon service to reduce testing friction
+        </li>
+         
+        <li>
+          Assisting in product management to ensure we meet deadlines with new and existing products
+        </li>
+         
+        <li>
+          Learning the various pain points from team members, taking the feedback and implementing
+                solutions to improve productivity and developer experience
+        </li>
+      </ul>
+    </div>
+  </div>
+   
+  <div
+    class="row cv-item"
+  >
+    <div
+      class="span3 cv-item-description"
+    >
+      <!---->
+       
+      <h6>
+        <a
           href="https://www.coveo.com"
         >
           Coveo
@@ -152,7 +222,7 @@ exports[`should render the entire app 1`] = `
         <span
           class="mute"
         >
-          Aug 2021 - Present
+          Aug 2021 - August 2022
         </span>
       </p>
     </div>
@@ -167,7 +237,7 @@ exports[`should render the entire app 1`] = `
       <!---->
        
       <p>
-        My involvement and skill set with Coveo includes the following:
+        My involvement and skill set with Coveo included the following:
       </p>
        
       <!---->
@@ -528,21 +598,21 @@ exports[`should render the entire app 1`] = `
           class="span3 skill"
         >
           <h4>
-            React/Vue/Angular
+            Next/React
           </h4>
            
           <div
             class="level"
           >
             <span
-              class="l-9"
+              class="l-10"
             >
-              proficient
+              expert
             </span>
           </div>
            
           <p>
-            proficient
+            expert
           </p>
         </div>
          
@@ -557,7 +627,7 @@ exports[`should render the entire app 1`] = `
             class="level"
           >
             <span
-              class="l-8"
+              class="l-9"
             >
               proficient
             </span>
@@ -659,7 +729,7 @@ exports[`should render the entire app 1`] = `
             class="level"
           >
             <span
-              class="l-8"
+              class="l-9"
             >
               proficient
             </span>
@@ -688,7 +758,7 @@ exports[`should render the entire app 1`] = `
           class="span3 skill"
         >
           <h4>
-            HTML5
+            HTML
           </h4>
            
           <div
@@ -789,27 +859,13 @@ exports[`should render the entire app 1`] = `
         >
           <li>
             
-                    Seeing if I can build an affordable and fully featured 
-            <a
-              href="https://github.com/visual-regression-testing"
-              target="_blank"
-            >
-              Visual Regression testing
-            </a>
-             front/backend, using many AWS services and the 
-            <a
-              href="https://github.com/percy/cli"
-              target="_blank"
-            >
-              Percy CLI/core
-            </a>
-            .
+                    Transcriber Summarizer - I wanted a way to summarize long meetings. Using AWS Transcribe and OpenAI via NextJS.
                 
           </li>
            
           <li>
             
-                    Experimenting with Machine Learning to see how accurate my models can predict sports outcomes - specifically boxing and tennis.
+                    Rimworld Progress Renderer Image Stitcher - Using Electron and ffmpeg, the application will read images from the game and stitch them together, outputting a video in MP4 format.
                 
           </li>
            
@@ -840,21 +896,6 @@ exports[`should render the entire app 1`] = `
             </a>
              as well as multiple radio/newspaper interviews, and am
                     receiving a Local Legend award. Built with NextJS, queries via GraphQL, deploys with Vercel. 20,000-30,000 hits per day around Christmas 2021.
-                
-          </li>
-           
-          <li>
-            
-                    Built and maintaining a 
-            <a
-              href="https://github.com/boxing/boxrec"
-              target="_blank"
-            >
-              boxing
-                    project
-            </a>
-             that has 86 stars. Using NodeJS/Typescript to act
-                    as an API for a boxing website. The data is fetched from a third party and to speed up development, heavily uses decorators.
                 
           </li>
            
