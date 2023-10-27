@@ -109,7 +109,8 @@
             <SkillsRow>
                 <ul class="disc">
                     <li>
-                        Transcriber Summarizer - I wanted a way to summarize long meetings. Using AWS Transcribe and OpenAI via NextJS.
+                        <a href="https://github.com/mikedidomizio/transcriber-summarizer" target="_blank">Transcriber Summarizer</a> - I wanted a way to summarize long meetings. Using AWS Transcribe and OpenAI,
+                        the app can record or take audio files, determine each speaker, and then return a summary of the discussion.
                     </li>
                     <li>
                         Rimworld Progress Renderer Image Stitcher - Using Electron and ffmpeg, the application will read images from the game and stitch them together, outputting a video in MP4 format.
