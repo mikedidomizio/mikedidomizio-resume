@@ -109,11 +109,11 @@
             <SkillsRow>
                 <ul class="disc">
                     <li>
-                        <a href="https://github.com/mikedidomizio/transcriber-summarizer" target="_blank">Transcriber Summarizer</a> - I wanted a way to summarize long meetings. Using AWS Transcribe and OpenAI,
-                        the app can record or take audio files, determine each speaker, and then return a summary of the discussion.
+                        <a href="https://github.com/mikedidomizio/transcriber-summarizer" target="_blank">Transcriber Summarizer</a> - I wanted a way to summarize long meetings. Using AWS Transcribe, OpenAI,
+                        and built on top of Remix, the app can record or take audio files, determine each speaker, and then return a summary of the discussion.
                     </li>
-                    <li>
-                        Rimworld Progress Renderer Image Stitcher - Using Electron and ffmpeg, the application will read images from the game and stitch them together, outputting a video in MP4 format.
+                    <li><a href="https://github.com/mikedidomizio/launchdorkly" target="_blank">LaunchDorkly</a> - A power user dashboard of LaunchDarkly.
+                        The main project page displays the status of feature flags in all environments right up front. Includes a feature that allows you to copy flags from one project to another.
                     </li>
                     <li>
                         In late December 2021, I built a <a href="https://covid-testing.vercel.app/" target="_blank">rapid antigen test appointment helper</a> for most of Canada.
