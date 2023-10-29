@@ -103,7 +103,7 @@
             </SkillsRow>
         </SkillsSection>
 
-        <Section>Other projects/skills</Section>
+        <Section>Other projects</Section>
 
         <SkillsSection>
             <SkillsRow>
