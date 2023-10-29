@@ -836,7 +836,7 @@ exports[`should render the entire app 1`] = `
       <h3
         class="cv-section-title"
       >
-        Other projects/skills
+        Other projects
       </h3>
     </div>
   </div>
@@ -864,14 +864,20 @@ exports[`should render the entire app 1`] = `
             >
               Transcriber Summarizer
             </a>
-             - I wanted a way to summarize long meetings. Using AWS Transcribe and OpenAI,
-                    the app can record or take audio files, determine each speaker, and then return a summary of the discussion.
+             - I wanted a way to summarize long meetings. Using AWS Transcribe, OpenAI,
+                    and built on top of Remix, the app can record or take audio files, determine each speaker, and then return a summary of the discussion.
                 
           </li>
            
           <li>
-            
-                    Rimworld Progress Renderer Image Stitcher - Using Electron and ffmpeg, the application will read images from the game and stitch them together, outputting a video in MP4 format.
+            <a
+              href="https://github.com/mikedidomizio/launchdorkly"
+              target="_blank"
+            >
+              LaunchDorkly
+            </a>
+             - A power user dashboard of LaunchDarkly.
+                    The main project page displays the status of feature flags in all environments right up front. Includes a feature that allows you to copy flags from one project to another.
                 
           </li>
            
