@@ -9,7 +9,7 @@
                 things I've done below." />
         <Section>Working Experience</Section>
         <CVItem title="theScore" website="https://www.thescore.bet"
-                date="Aug 2022 - Present" position="Senior Software Developer, Team Lead">
+                date="Aug 2022 - Present" position="Senior Software Developer, Tech Lead">
             <ul class="disc">
                 <li>Write guidelines and standards on building complex shareable components for our monorepo</li>
                 <li>Mentoring new team on React concepts, proper testing, best practices</li>
