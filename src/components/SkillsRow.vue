@@ -1,7 +1,7 @@
 <template>
-    <div class="row">
+    <div class="row print-flex">
         <div class="span3 nbsp">&nbsp;</div>
-        <div class="span9">
+        <div class="span9 print-flex">
             <slot></slot>
         </div>
     </div>
@@ -23,5 +23,12 @@
     /* https://github.com/vuejs/vue-cli/issues/5639 */
     .nbsp:before {
         content: "\a0";
+    }
+
+
+    @media print {
+      .print-flex {
+        display: flex;
+      }
     }
 </style>
