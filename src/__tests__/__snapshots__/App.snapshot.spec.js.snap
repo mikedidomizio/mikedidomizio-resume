@@ -583,7 +583,7 @@ exports[`should render the entire app 1`] = `
    
   <div>
     <div
-      class="row"
+      class="row print-flex"
     >
       <div
         class="span3 nbsp"
@@ -592,7 +592,7 @@ exports[`should render the entire app 1`] = `
       </div>
        
       <div
-        class="span9"
+        class="span9 print-flex"
       >
         <div
           class="span3 skill"
@@ -663,7 +663,7 @@ exports[`should render the entire app 1`] = `
     </div>
      
     <div
-      class="row"
+      class="row print-flex"
     >
       <div
         class="span3 nbsp"
@@ -672,7 +672,7 @@ exports[`should render the entire app 1`] = `
       </div>
        
       <div
-        class="span9"
+        class="span9 print-flex"
       >
         <div
           class="span3 skill"
@@ -743,7 +743,7 @@ exports[`should render the entire app 1`] = `
     </div>
      
     <div
-      class="row"
+      class="row print-flex"
     >
       <div
         class="span3 nbsp"
@@ -752,7 +752,7 @@ exports[`should render the entire app 1`] = `
       </div>
        
       <div
-        class="span9"
+        class="span9 print-flex"
       >
         <div
           class="span3 skill"
@@ -843,7 +843,7 @@ exports[`should render the entire app 1`] = `
    
   <div>
     <div
-      class="row"
+      class="row print-flex"
     >
       <div
         class="span3 nbsp"
@@ -852,7 +852,7 @@ exports[`should render the entire app 1`] = `
       </div>
        
       <div
-        class="span9"
+        class="span9 print-flex"
       >
         <ul
           class="disc"
