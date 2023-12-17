@@ -5,7 +5,7 @@
                 github="mikedidomizio"
                 phone-number="+1-613-806-0770">
         </Header>
-        <PersonalProfile message="Hi - I'm Mike, and programming is my passion.<br/>Check out some of the awesome
+        <PersonalProfile message="Hi - I'm Mike, and software development is my passion.<br/>Check out some of the awesome
                 things I've done below." />
         <Section>Working Experience</Section>
         <CVItem title="theScore" website="https://www.thescore.bet"
@@ -24,7 +24,7 @@
           <ul class="disc">
             <li>Implement visual regression testing to reduce the number of unintended visual changes between releases</li>
             <li>Write standards and recommendations on contributing code and reviewing to reduce pull request time turnaround</li>
-            <li>Refactoring of legacy Backbone code in React, with RTL added to ensure non-breaking functionality</li>
+            <li>Refactoring of legacy Backbone code in React, with RTL added to ensure no regressions</li>
             <li>Provide guidance from previous experience to improve the processes in place for my team</li>
           </ul>
         </CVItem>
@@ -40,7 +40,7 @@
                 <li>Complete breakdown and autonomous implementation of full stack objectives</li>
                 <li>Help with pager duty incidents to ensure minimal downtime</li>
                 <li>Run lunch and learn events to further develop teams skill sets</li>
-                <li>Deployed a number of GCP Functions, Pub/Sub, BigQuery</li>
+                <li>Deployed a number of GCP Functions like Pub/Sub, BigQuery</li>
             </ul>
         </CVItem>
         <CVItem title="IDS North America" website="https://www.idscorporation.com/na"
@@ -49,7 +49,6 @@
                 <li>Lead developer on 12 person billing project</li>
                 <li>Responsible for driving the team to one of the most successful launches of a product within the company</li>
                 <li>Responsible for Sprint planning and backlog refinement</li>
-                <li>Test Driven Development with Karma/Protractor E2E tests</li>
                 <li>Set up of common design, templating, shared AngularJS components for projects</li>
                 <li>Automate CI/CD of projects through GulpJS and GitLab CI</li>
                 <li>Set up custom Yeoman generators for scaffolding future AngularJS projects</li>
@@ -79,7 +78,6 @@
                 </li>
                 <li>Set up and deployed AWS (EC2, S3, Cloudfront, RDS) in different zones for distributing files globally</li>
                 <li>Integrated with Facebook, Twitter, YouTube, Vimeo and Tumblr</li>
-                <li>Polls the server for new content depending on which page you are on</li>
             </ul>
         </CVItem>
 

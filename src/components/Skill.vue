@@ -132,7 +132,7 @@
 
   .level > span {
     /* use box shadow as print doesn't understand backgrounds */
-    box-shadow: inset 0 0 0 200px #efefef;
+    box-shadow: inset 0 0 0 200px #359CBD;
     height: 100%;
   }
 }
