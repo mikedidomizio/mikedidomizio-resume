@@ -20,7 +20,7 @@
             </ul>
         </CVItem>
         <CVItem title="Coveo" website="https://www.coveo.com"
-                date="Aug 2021 - August 2022" position="Senior Frontend Developer (Machine Learning)">
+                date="Aug 2021 - Aug 2022" position="Senior Frontend Developer (Machine Learning)">
           <ul class="disc">
             <li>Implement visual regression testing to reduce the number of unintended visual changes between releases</li>
             <li>Write standards and recommendations on contributing code and reviewing to reduce pull request time turnaround</li>
@@ -157,5 +157,5 @@
     @import "assets/base.css";
     @import "assets/grid.css";
     @import "assets/layout.css";
-    @import "http://fonts.googleapis.com/css?family=Open+Sans:300,400,700";
+    @import "https://fonts.googleapis.com/css?family=Open+Sans:300,400,700";
 </style>
