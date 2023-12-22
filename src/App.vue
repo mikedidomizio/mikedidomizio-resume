@@ -157,5 +157,5 @@
     @import "assets/base.css";
     @import "assets/grid.css";
     @import "assets/layout.css";
-    @import "http://fonts.googleapis.com/css?family=Open+Sans:300,400,700";
+    @import "https://fonts.googleapis.com/css?family=Open+Sans:300,400,700";
 </style>
