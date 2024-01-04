@@ -1,6 +1,6 @@
 # mikedidomizio.com
 
-[![Build](https://github.com/mikedidomizio/mikedidomizio.com/actions/workflows/main.yml/badge.svg)](https://github.com/mikedidomizio/mikedidomizio.com/actions/workflows/main.yml/badge.svg)
+[![Build](https://github.com/mikedidomizio/mikedidomizio-resume/actions/workflows/main.yml/badge.svg)](https://github.com/mikedidomizio/mikedidomizio.com/actions/workflows/main.yml/badge.svg)
 [![codecov](https://codecov.io/gh/mikedidomizio/mikedidomizio.com/branch/master/graph/badge.svg?token=T9EZW2D26M)](https://codecov.io/gh/mikedidomizio/mikedidomizio.com)
 
 ## Description
