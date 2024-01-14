@@ -919,7 +919,7 @@ exports[`should render the entire app 1`] = `
           <li>
             This CV is built in VueJS!  It's 
             <a
-              href="https://github.com/mikedidomizio/mikedidomizio.com"
+              href="https://github.com/mikedidomizio/mikedidomizio-resume"
             >
               open
                     source
