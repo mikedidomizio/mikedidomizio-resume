@@ -124,7 +124,7 @@
                             target="_blank">Tab Group Helper</a> Chrome Extension written in React to improve
                         productivity/organization of tab groups in people's browsers.
                     </li>
-                    <li>This CV is built in VueJS!  It's <a href="https://github.com/mikedidomizio/mikedidomizio.com">open
+                    <li>This CV is built in VueJS!  It's <a href="https://github.com/mikedidomizio/mikedidomizio-resume">open
                         source</a>, with various testing setups, dockerized, and deploys to S3.
                     </li>
                 </ul>
