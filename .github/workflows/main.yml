@@ -94,78 +94,78 @@ jobs:
           mv /tmp/.buildx-cache-new /tmp/.buildx-cache
 
   # Uses the docker image to build the product
-  build:
-    needs: [test]
-    name: Build product for deployment
-    runs-on: ubuntu-latest
+  # build:
+  #   needs: [test]
+  #   name: Build product for deployment
+  #   runs-on: ubuntu-latest
 
-    steps:
-      # Check out code
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v3
+  #   steps:
+  #     # Check out code
+  #     - name: Checkout
+  #       uses: actions/checkout@v4
+  #     - name: Set up Docker Buildx
+  #       uses: docker/setup-buildx-action@v3
 
-      # So now you can use Actions' own caching!
-      - name: Restore Docker layers
-        uses: actions/cache@v3
-        with:
-          path: /tmp/.buildx-cache
-          key: ${{ runner.os }}-buildx-${{ github.sha }}
-          restore-keys: |
+  #     # So now you can use Actions' own caching!
+  #     - name: Restore Docker layers
+  #       uses: actions/cache@v3
+  #       with:
+  #         path: /tmp/.buildx-cache
+  #         key: ${{ runner.os }}-buildx-${{ github.sha }}
+  #         restore-keys: |
 
-      - name: Build Docker image
-        uses: docker/build-push-action@v3
-        with:
-          context: .
-          push: false
-          tags: mikedidomizio/mikedidomizio.com:latest
-          cache-from: type=local,src=/tmp/.buildx-cache
-          cache-to: type=local,dest=/tmp/.buildx-cache-new
-          outputs: type=docker,dest=/tmp/mikedidomizio-image.tar
+  #     - name: Build Docker image
+  #       uses: docker/build-push-action@v3
+  #       with:
+  #         context: .
+  #         push: false
+  #         tags: mikedidomizio/mikedidomizio.com:latest
+  #         cache-from: type=local,src=/tmp/.buildx-cache
+  #         cache-to: type=local,dest=/tmp/.buildx-cache-new
+  #         outputs: type=docker,dest=/tmp/mikedidomizio-image.tar
 
-      - name: Docker load the tar file
-        run: |
-          docker image load --input /tmp/mikedidomizio-image.tar
+  #     - name: Docker load the tar file
+  #       run: |
+  #         docker image load --input /tmp/mikedidomizio-image.tar
 
-      - name: Build for production
-        run: |
-          ./scripts/build.sh
+  #     - name: Build for production
+  #       run: |
+  #         ./scripts/build.sh
 
-      - name: Save build artifacts for pushing to S3 in deploy job
-        uses: actions/upload-artifact@v3
-        with:
-          name: build-deploy
-          path: dist/
+  #     - name: Save build artifacts for pushing to S3 in deploy job
+  #       uses: actions/upload-artifact@v3
+  #       with:
+  #         name: build-deploy
+  #         path: dist/
 
-      - name: Move cache
-        run: |
-          rm -rf /tmp/.buildx-cache
-          mv /tmp/.buildx-cache-new /tmp/.buildx-cache
+  #     - name: Move cache
+  #       run: |
+  #         rm -rf /tmp/.buildx-cache
+  #         mv /tmp/.buildx-cache-new /tmp/.buildx-cache
 
   # Deploys the website to S3
-  deploy:
-    # the following is only done if the branch is master
-    needs: [build]
-    if: github.ref == 'refs/heads/master'
-    name: Deploy to S3
-    runs-on: ubuntu-latest
+  # deploy:
+  #   # the following is only done if the branch is master
+  #   needs: [build]
+  #   if: github.ref == 'refs/heads/master'
+  #   name: Deploy to S3
+  #   runs-on: ubuntu-latest
 
-    steps:
-      # when we download the artifacts it deploys into the current directory
-      - name: Download build for deploy
-        uses: actions/download-artifact@v2
-        with:
-          name: build-deploy
+  #   steps:
+  #     # when we download the artifacts it deploys into the current directory
+  #     - name: Download build for deploy
+  #       uses: actions/download-artifact@v2
+  #       with:
+  #         name: build-deploy
 
-      - name: Configure AWS credentials
-        # use hash for safety reasons, using master/tags can introduce security risks into workflow
-        uses: aws-actions/configure-aws-credentials@51e2d042f8c5cf77f151685c9338e989dc0b8fc8
-        with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws-region: ${{ secrets.AWS_REGION }}
+  #     - name: Configure AWS credentials
+  #       # use hash for safety reasons, using master/tags can introduce security risks into workflow
+  #       uses: aws-actions/configure-aws-credentials@51e2d042f8c5cf77f151685c9338e989dc0b8fc8
+  #       with:
+  #         aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+  #         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+  #         aws-region: ${{ secrets.AWS_REGION }}
 
-      - name: Deploy static site to S3 bucket
-        run: |
-          aws s3 sync . s3://${{ secrets.AWS_S3_BUCKET }} --exclude "package*.json" --acl public-read
+  #     - name: Deploy static site to S3 bucket
+  #       run: |
+  #         aws s3 sync . s3://${{ secrets.AWS_S3_BUCKET }} --exclude "package*.json" --acl public-read
