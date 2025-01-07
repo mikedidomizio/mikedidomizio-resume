@@ -1,6 +1,6 @@
 <template>
     <div id="app" class="wrap">
-        <Header name="Mike DiDomizio" position="Software Developer" city="Ottawa, Ontario"
+        <Header name="Mike DiDomizio" position="Staff Engineer" city="Ottawa, Ontario"
                 email="mikedidomizio@gmail.com"
                 github="mikedidomizio"
                 phone-number="+1-613-806-0770">
@@ -9,14 +9,14 @@
                 things I've done below." />
         <Section>Working Experience</Section>
         <CVItem title="theScore" website="https://www.thescore.bet"
-                date="Aug 2022 - Present" position="Senior Software Developer, Tech Lead (Web Platform)">
+                date="Aug 2022 - Present" position="Staff Engineer, Tech Lead (Web Platform)">
             <ul class="disc">
                 <li>Write guidelines and standards on building complex shareable components for our monorepo</li>
                 <li>Mentoring new team on React concepts, proper testing, best practices</li>
                 <li>Create software to bypass daemon service to reduce testing friction</li>
                 <li>Assisting in product management to ensure we meet deadlines with new and existing products</li>
                 <li>Learning the various pain points from team members, taking the feedback and implementing
-                    solutions to improve productivity and developer experience</li>
+                    solutions to improve productivity, testing, and developer experience</li>
             </ul>
         </CVItem>
         <CVItem title="Coveo" website="https://www.coveo.com"
