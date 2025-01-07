@@ -597,14 +597,14 @@ exports[`should render the entire app 1`] = `
             class="level"
           >
             <span
-              class="l-10"
+              class="l-9"
             >
-              expert
+              proficient
             </span>
           </div>
            
           <p>
-            expert
+            proficient
           </p>
         </div>
          

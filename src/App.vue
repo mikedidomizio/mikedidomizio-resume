@@ -85,7 +85,7 @@
 
         <SkillsSection>
             <SkillsRow>
-                <Skill v-bind:rank="10">Next/React</Skill>
+                <Skill v-bind:rank="9">Next/React</Skill>
                 <Skill v-bind:rank="9">NodeJS</Skill>
                 <Skill v-bind:rank="8">PostgreSQL/MySQL</Skill>
             </SkillsRow>
