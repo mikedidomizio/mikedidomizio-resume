@@ -20,7 +20,7 @@ exports[`should render the entire app 1`] = `
         <br />
          
         <small>
-          Software Developer
+          Staff Engineer
         </small>
       </h1>
     </div>
@@ -162,7 +162,7 @@ exports[`should render the entire app 1`] = `
       class="span9 cv-item-details"
     >
       <h4>
-        Senior Software Developer, Tech Lead (Web Platform)
+        Staff Engineer, Tech Lead (Web Platform)
       </h4>
        
       <!---->
@@ -194,7 +194,7 @@ exports[`should render the entire app 1`] = `
          
         <li>
           Learning the various pain points from team members, taking the feedback and implementing
-                solutions to improve productivity and developer experience
+                solutions to improve productivity, testing, and developer experience
         </li>
       </ul>
     </div>
