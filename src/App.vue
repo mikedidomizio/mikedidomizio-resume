@@ -107,17 +107,17 @@
             <SkillsRow>
                 <ul class="disc">
                     <li>
+                      In late December 2021, I built a <a href="https://covid-testing.vercel.app/" target="_blank">rapid antigen test appointment helper</a> for most of Canada.
+                      It received a lot of feedback, and I was interviewed by <a href="https://www.youtube.com/watch?v=JZNTT7g3ytQ" target="_blank">CTV Toronto</a>
+                      and <a href="https://www.youtube.com/watch?v=6ofQ82206K8" target="_blank">CTV Ottawa</a> as well as multiple radio/newspaper interviews.
+                      Built with NextJS, queries via GraphQL, deploys with Vercel. 20,000-30,000 hits per day around Christmas 2021.
+                    </li>
+                    <li>
                         <a href="https://github.com/mikedidomizio/transcriber-summarizer" target="_blank">Transcriber Summarizer</a> - I wanted a way to summarize long meetings. Using AWS Transcribe, OpenAI,
                         and built on top of Remix, the app can record or take audio files, determine each speaker, and then return a summary of the discussion.
                     </li>
                     <li><a href="https://github.com/mikedidomizio/launchdorkly" target="_blank">LaunchDorkly</a> - A power user dashboard of LaunchDarkly.
                         The main project page displays the status of feature flags in all environments right up front. Includes a feature that allows you to copy flags from one project to another.
-                    </li>
-                    <li>
-                        In late December 2021, I built a <a href="https://covid-testing.vercel.app/" target="_blank">rapid antigen test appointment helper</a> for most of Canada.
-                        It received a lot of feedback, and I was interviewed by <a href="https://www.youtube.com/watch?v=JZNTT7g3ytQ" target="_blank">CTV Toronto</a>
-                        and <a href="https://www.youtube.com/watch?v=6ofQ82206K8" target="_blank">CTV Ottawa</a> as well as multiple radio/newspaper interviews, and am
-                        receiving a Local Legend award. Built with NextJS, queries via GraphQL, deploys with Vercel. 20,000-30,000 hits per day around Christmas 2021.
                     </li>
                     <li>Worked on a <a
                             href="https://chrome.google.com/webstore/detail/tab-group-helper/llhkcebnebfiaamifhbpehjompplpnae?hl=en&authuser=0"
