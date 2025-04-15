@@ -5,16 +5,17 @@
                 github="mikedidomizio"
                 phone-number="+1-613-806-0770">
         </Header>
-        <PersonalProfile message="Hi - I'm Mike, and software development is my passion.<br/>Check out some of the awesome
-                things I've done below." />
+        <PersonalProfile message="Hi - I'm Mike — a Staff Engineer passionate about writing clean,<br/> scalable code and mentoring engineers to grow and thrive." />
         <Section>Working Experience</Section>
         <CVItem title="theScore" website="https://www.thescore.bet"
                 date="Aug 2022 - Present" position="Staff Engineer, Tech Lead (Web Platform)">
             <ul class="disc">
                 <li>Write guidelines and standards on building complex shareable components for our monorepo</li>
-                <li>Mentoring new team on React concepts, proper testing, best practices</li>
-                <li>Create software to bypass daemon service to reduce testing friction</li>
-                <li>Assisting in product management to ensure we meet deadlines with new and existing products</li>
+                <li>Mentoring new team on advanced React concepts, proper testing, best practices</li>
+                <li>Created software to bypass daemon service to reduce testing friction</li>
+                <li>Added Datadog monitoring with Slack alerts for CI flakiness, identifying potential application anomalies</li>
+                <li>Created Datadog observability dashboards to monitor frontend performance and ensure alignment with partnership SLOs</li>
+                <li>Worked with product management to align on timelines, assess risks, and drive delivery of high priority features</li>
                 <li>Learning the various pain points from team members, taking the feedback and implementing
                     solutions to improve productivity, testing, and developer experience</li>
             </ul>
