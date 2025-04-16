@@ -5,16 +5,16 @@
                 github="mikedidomizio"
                 phone-number="+1-613-806-0770">
         </Header>
-        <PersonalProfile message="Hi - I'm Mike, and software development is my passion.<br/>Check out some of the awesome
-                things I've done below." />
+        <PersonalProfile message="Hi - I'm Mike, a Staff Engineer passionate about writing clean,<br/> scalable code and mentoring engineers to grow and thrive." />
         <Section>Working Experience</Section>
         <CVItem title="theScore" website="https://www.thescore.bet"
                 date="Aug 2022 - Present" position="Staff Engineer, Tech Lead (Web Platform)">
             <ul class="disc">
                 <li>Write guidelines and standards on building complex shareable components for our monorepo</li>
-                <li>Mentoring new team on React concepts, proper testing, best practices</li>
-                <li>Create software to bypass daemon service to reduce testing friction</li>
-                <li>Assisting in product management to ensure we meet deadlines with new and existing products</li>
+                <li>Mentoring new team on advanced React concepts, proper testing, best practices</li>
+                <li>Created software to bypass daemon service to reduce testing friction</li>
+                <li>Created Datadog observability dashboards to monitor frontend performance and ensure alignment with partnership SLOs</li>
+                <li>Worked with product management to align on timelines, assess risks, and drive delivery of high priority features</li>
                 <li>Learning the various pain points from team members, taking the feedback and implementing
                     solutions to improve productivity, testing, and developer experience</li>
             </ul>
@@ -108,9 +108,9 @@
                 <ul class="disc">
                     <li>
                       In late December 2021, I built a <a href="https://covid-testing.vercel.app/" target="_blank">rapid antigen test appointment helper</a> for most of Canada.
-                      It received a lot of feedback, and I was interviewed by <a href="https://www.youtube.com/watch?v=JZNTT7g3ytQ" target="_blank">CTV Toronto</a>
+                      It received nationwide attention, and I was interviewed by <a href="https://www.youtube.com/watch?v=JZNTT7g3ytQ" target="_blank">CTV Toronto</a>
                       and <a href="https://www.youtube.com/watch?v=6ofQ82206K8" target="_blank">CTV Ottawa</a> as well as multiple radio/newspaper interviews.
-                      Built with NextJS, queries via GraphQL, deploys with Vercel. 20,000-30,000 hits per day around Christmas 2021.
+                      Built with NextJS, queries via GraphQL, deploys with Vercel. Received 20,000-30,000 hits per day around Christmas 2021.
                     </li>
                     <li>
                         <a href="https://github.com/mikedidomizio/transcriber-summarizer" target="_blank">Transcriber Summarizer</a> - I wanted a way to summarize long meetings. Using AWS Transcribe, OpenAI,
