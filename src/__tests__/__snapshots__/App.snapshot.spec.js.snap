@@ -105,10 +105,9 @@ exports[`should render the entire app 1`] = `
       <h2
         class="cv-profile"
       >
-        Hi - I'm Mike, and software development is my passion.
+        Hi - I'm Mike, a Staff Engineer passionate about writing clean,
         <br />
-        Check out some of the awesome
-            things I've done below.
+         scalable code and mentoring engineers to grow and thrive.
       </h2>
     </div>
   </div>
@@ -181,20 +180,24 @@ exports[`should render the entire app 1`] = `
         </li>
          
         <li>
-          Mentoring new team on React concepts, proper testing, best practices
+          Mentoring new team on advanced React concepts, proper testing, best practices
         </li>
          
         <li>
-          Create software to bypass daemon service to reduce testing friction
-        </li>
-         
-        <li>
-          Assisting in product management to ensure we meet deadlines with new and existing products
+          Worked with product management to align on timelines, assess risks, and drive delivery of high priority features
         </li>
          
         <li>
           Learning the various pain points from team members, taking the feedback and implementing
-                solutions to improve productivity, testing, and developer experience
+              solutions to improve productivity, testing, and developer experience
+        </li>
+         
+        <li>
+          Created MacOS application to bypass daemon service to reduce testing friction
+        </li>
+         
+        <li>
+          Created Datadog observability dashboards to monitor frontend performance and ensure alignment with partnership SLOs
         </li>
       </ul>
     </div>
@@ -254,7 +257,7 @@ exports[`should render the entire app 1`] = `
         </li>
          
         <li>
-          Refactoring of legacy Backbone code in React, with RTL added to ensure no regressions
+          Refactoring of legacy Backbone code in React, using React Testing Library to reduce the likelihood of regressions
         </li>
          
         <li>
@@ -337,7 +340,7 @@ exports[`should render the entire app 1`] = `
         </li>
          
         <li>
-          Deployed a number of GCP Functions like Pub/Sub, BigQuery
+          Deployed a number of Google Cloud Platform (GCP) functions like Pub/Sub, BigQuery
         </li>
       </ul>
     </div>
@@ -461,7 +464,7 @@ exports[`should render the entire app 1`] = `
         class="disc"
       >
         <li>
-          App development for all major mobile platforms (iOS, Android, WP8 and Blackberry)
+          App development for all major mobile platforms (iOS, Android, Windows Phone 7/8, and Blackberry)
         </li>
          
         <li>
@@ -534,7 +537,7 @@ exports[`should render the entire app 1`] = `
          
         <li>
           Planned out solutions using appropriate and convenient scalable applications (like Wowza,
-                Flowplayer deployed on AWS EC2)
+                Flowplayer deployed on Amazon Web Services (AWS) EC2
             
         </li>
          
@@ -599,12 +602,12 @@ exports[`should render the entire app 1`] = `
             <span
               class="l-9"
             >
-              proficient
+              Expert
             </span>
           </div>
            
           <p>
-            proficient
+            Expert
           </p>
         </div>
          
@@ -621,12 +624,12 @@ exports[`should render the entire app 1`] = `
             <span
               class="l-9"
             >
-              proficient
+              Expert
             </span>
           </div>
            
           <p>
-            proficient
+            Expert
           </p>
         </div>
          
@@ -643,12 +646,12 @@ exports[`should render the entire app 1`] = `
             <span
               class="l-8"
             >
-              proficient
+              Proficient
             </span>
           </div>
            
           <p>
-            proficient
+            Proficient
           </p>
         </div>
       </div>
@@ -679,12 +682,12 @@ exports[`should render the entire app 1`] = `
             <span
               class="l-9"
             >
-              proficient
+              Expert
             </span>
           </div>
            
           <p>
-            proficient
+            Expert
           </p>
         </div>
          
@@ -701,12 +704,12 @@ exports[`should render the entire app 1`] = `
             <span
               class="l-6"
             >
-              competent
+              Competent
             </span>
           </div>
            
           <p>
-            competent
+            Competent
           </p>
         </div>
          
@@ -723,12 +726,12 @@ exports[`should render the entire app 1`] = `
             <span
               class="l-9"
             >
-              proficient
+              Expert
             </span>
           </div>
            
           <p>
-            proficient
+            Expert
           </p>
         </div>
       </div>
@@ -759,12 +762,12 @@ exports[`should render the entire app 1`] = `
             <span
               class="l-9"
             >
-              proficient
+              Expert
             </span>
           </div>
            
           <p>
-            proficient
+            Expert
           </p>
         </div>
          
@@ -781,12 +784,12 @@ exports[`should render the entire app 1`] = `
             <span
               class="l-7"
             >
-              competent
+              Proficient
             </span>
           </div>
            
           <p>
-            competent
+            Proficient
           </p>
         </div>
          
@@ -803,12 +806,12 @@ exports[`should render the entire app 1`] = `
             <span
               class="l-6"
             >
-              competent
+              Competent
             </span>
           </div>
            
           <p>
-            competent
+            Competent
           </p>
         </div>
       </div>
@@ -859,7 +862,7 @@ exports[`should render the entire app 1`] = `
               rapid antigen test appointment helper
             </a>
              for most of Canada.
-                  It received a lot of feedback, and I was interviewed by 
+                  It received nationwide attention, and I was interviewed by 
             <a
               href="https://www.youtube.com/watch?v=JZNTT7g3ytQ"
               target="_blank"
@@ -875,7 +878,7 @@ exports[`should render the entire app 1`] = `
               CTV Ottawa
             </a>
              as well as multiple radio/newspaper interviews.
-                  Built with NextJS, queries via GraphQL, deploys with Vercel. 20,000-30,000 hits per day around Christmas 2021.
+                  Built with NextJS, queries via GraphQL, deploys with Vercel. Received 20,000-30,000 hits per day around Christmas 2021.
                 
           </li>
            
