@@ -5,18 +5,18 @@
                 github="mikedidomizio"
                 phone-number="+1-613-806-0770">
         </Header>
-        <PersonalProfile message="Hi - I'm Mike, and software development is my passion.<br/>Check out some of the awesome
-                things I've done below." />
+        <PersonalProfile message="Hi - I'm Mike, a Staff Engineer passionate about writing clean,<br/> scalable code and mentoring engineers to grow and thrive." />
         <Section>Working Experience</Section>
         <CVItem title="theScore" website="https://www.thescore.bet"
                 date="Aug 2022 - Present" position="Staff Engineer, Tech Lead (Web Platform)">
             <ul class="disc">
                 <li>Write guidelines and standards on building complex shareable components for our monorepo</li>
-                <li>Mentoring new team on React concepts, proper testing, best practices</li>
-                <li>Create software to bypass daemon service to reduce testing friction</li>
-                <li>Assisting in product management to ensure we meet deadlines with new and existing products</li>
+                <li>Mentoring new team on advanced React concepts, proper testing, best practices</li>
+                <li>Worked with product management to align on timelines, assess risks, and drive delivery of high priority features</li>
                 <li>Learning the various pain points from team members, taking the feedback and implementing
-                    solutions to improve productivity, testing, and developer experience</li>
+                  solutions to improve productivity, testing, and developer experience</li>
+                <li>Created MacOS application to bypass daemon service to reduce testing friction</li>
+                <li>Created Datadog observability dashboards to monitor frontend performance and ensure alignment with partnership SLOs</li>
             </ul>
         </CVItem>
         <CVItem title="Coveo" website="https://www.coveo.com"
@@ -24,7 +24,7 @@
           <ul class="disc">
             <li>Implement visual regression testing to reduce the number of unintended visual changes between releases</li>
             <li>Write standards and recommendations on contributing code and reviewing to reduce pull request time turnaround</li>
-            <li>Refactoring of legacy Backbone code in React, with RTL added to ensure no regressions</li>
+            <li>Refactoring of legacy Backbone code in React, using React Testing Library to reduce the likelihood of regressions</li>
             <li>Provide guidance from previous experience to improve the processes in place for my team</li>
           </ul>
         </CVItem>
@@ -40,7 +40,7 @@
                 <li>Complete breakdown and autonomous implementation of full stack objectives</li>
                 <li>Help with pager duty incidents to ensure minimal downtime</li>
                 <li>Run lunch and learn events to further develop teams skill sets</li>
-                <li>Deployed a number of GCP Functions like Pub/Sub, BigQuery</li>
+                <li>Deployed a number of Google Cloud Platform (GCP) functions like Pub/Sub, BigQuery</li>
             </ul>
         </CVItem>
         <CVItem title="IDS North America" website="https://www.idscorporation.com/na"
@@ -57,7 +57,7 @@
         <CVItem title="Spoonity" website="https://www.spoonity.com/"
                 date="February 2014 - July 2015" position="Mobile App Developer">
             <ul class="disc">
-                <li>App development for all major mobile platforms (iOS, Android, WP8 and Blackberry)</li>
+                <li>App development for all major mobile platforms (iOS, Android, Windows Phone 7/8, and Blackberry)</li>
                 <li>Built a remote updater to remotely update apps outside of the platform stores. Eliminating wait times for app updates</li>
                 <li>Multilingualism built into apps/dashboard</li>
                 <li>GruntJS set up to automate and minimize time developing apps</li>
@@ -71,7 +71,7 @@
                     infrastructures
                 </li>
                 <li>Planned out solutions using appropriate and convenient scalable applications (like Wowza,
-                    Flowplayer deployed on AWS EC2)
+                    Flowplayer deployed on Amazon Web Services (AWS) EC2
                 </li>
                 <li>Experience and knowledge in integrating back-end code with Amazon's S3/Cloudfront service for
                     scalability and easy accessibility
@@ -108,9 +108,9 @@
                 <ul class="disc">
                     <li>
                       In late December 2021, I built a <a href="https://covid-testing.vercel.app/" target="_blank">rapid antigen test appointment helper</a> for most of Canada.
-                      It received a lot of feedback, and I was interviewed by <a href="https://www.youtube.com/watch?v=JZNTT7g3ytQ" target="_blank">CTV Toronto</a>
+                      It received nationwide attention, and I was interviewed by <a href="https://www.youtube.com/watch?v=JZNTT7g3ytQ" target="_blank">CTV Toronto</a>
                       and <a href="https://www.youtube.com/watch?v=6ofQ82206K8" target="_blank">CTV Ottawa</a> as well as multiple radio/newspaper interviews.
-                      Built with NextJS, queries via GraphQL, deploys with Vercel. 20,000-30,000 hits per day around Christmas 2021.
+                      Built with NextJS, queries via GraphQL, deploys with Vercel. Received 20,000-30,000 hits per day around Christmas 2021.
                     </li>
                     <li>
                         <a href="https://github.com/mikedidomizio/transcriber-summarizer" target="_blank">Transcriber Summarizer</a> - I wanted a way to summarize long meetings. Using AWS Transcribe, OpenAI,

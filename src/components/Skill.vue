@@ -17,26 +17,30 @@
         return `l-${this.rank}`
       },
       rankMessage() {
-        // these rankings are somewhat based off of
-        // http://jim-mcbeath.blogspot.com/2011/12/levels-of-expertise.html?_sm_au_=iPVSqSS5n7DSZQrMQvVMjK0tJ0N7M
         const ranking = [{
-          experienceLevel: 'pursuing',
+          experienceLevel: 'Unfamiliar',
           rank: 0,
         }, {
-          experienceLevel: 'learning',
-          rank: 4,
+          experienceLevel: 'Exploring',
+          rank: 1,
         }, {
-          experienceLevel: 'competent',
-          rank: 6,
+          experienceLevel: 'Learning',
+          rank: 3,
         }, {
-          experienceLevel: 'proficient',
-          rank: 8,
+          experienceLevel: 'Competent',
+          rank: 5,
         }, {
-          experienceLevel: 'expert',
+          experienceLevel: 'Proficient',
+          rank: 7,
+        }, {
+          experienceLevel: 'Expert',
+          rank: 9,
+        }, {
+          experienceLevel: 'Master/Contributor',
           rank: 10,
         }];
 
-        let word = 'pursuing';
+        let word = ranking[0].experienceLevel;
 
         for (let rank of ranking) {
           if (this.rank >= rank.rank) {
