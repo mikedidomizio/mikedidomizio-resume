@@ -90,7 +90,7 @@
                 <Skill v-bind:rank="8">PostgreSQL/MySQL</Skill>
             </SkillsRow>
             <SkillsRow>
-                <Skill v-bind:rank="9">Typescript</Skill>
+                <Skill v-bind:rank="9">TypeScript</Skill>
                 <Skill v-bind:rank="6">Java</Skill>
                 <Skill v-bind:rank="9">Automation/CI/CD</Skill>
             </SkillsRow>
