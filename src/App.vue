@@ -70,7 +70,7 @@
                 <li>Helped in architecture and managing a number of remote server setups, databases and
                     infrastructures
                 </li>
-                <li>Planned out solutions using appropriate and convenient scalable applications (like Wowza,
+                <li>Planned out solutions using appropriate and convenient scalable applications like Wowza, and
                     Flowplayer deployed on Amazon Web Services (AWS) EC2
                 </li>
                 <li>Experience and knowledge in integrating back-end code with Amazon's S3/Cloudfront service for
@@ -90,7 +90,7 @@
                 <Skill v-bind:rank="8">PostgreSQL/MySQL</Skill>
             </SkillsRow>
             <SkillsRow>
-                <Skill v-bind:rank="9">Typescript</Skill>
+                <Skill v-bind:rank="9">TypeScript</Skill>
                 <Skill v-bind:rank="6">Java</Skill>
                 <Skill v-bind:rank="9">Automation/CI/CD</Skill>
             </SkillsRow>
