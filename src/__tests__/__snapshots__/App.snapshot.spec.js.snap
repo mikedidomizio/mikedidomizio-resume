@@ -46,32 +46,9 @@ exports[`should render the entire app 1`] = `
       <ul
         class="contact-info hide-on-phone fixed"
       >
-        <li
-          class="text"
-        >
-          <span>
-            E:
-          </span>
-           
-          <a
-            class="email"
-            href="mailto:mikedidomizio@gmail.com"
-          >
-            mikedidomizio@gmail.com
-          </a>
-        </li>
+        <!---->
          
-        <li
-          class="text"
-        >
-          <span>
-            T:
-          </span>
-           
-          <strong>
-            +1-613-806-0770
-          </strong>
-        </li>
+        <!---->
          
         <!---->
          
@@ -536,7 +513,7 @@ exports[`should render the entire app 1`] = `
         </li>
          
         <li>
-          Planned out solutions using appropriate and convenient scalable applications (like Wowza,
+          Planned out solutions using appropriate and convenient scalable applications like Wowza, and
                 Flowplayer deployed on Amazon Web Services (AWS) EC2
             
         </li>
@@ -673,7 +650,7 @@ exports[`should render the entire app 1`] = `
           class="span3 skill"
         >
           <h4>
-            Typescript
+            TypeScript
           </h4>
            
           <div
