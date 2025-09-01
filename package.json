@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "vue": "^3.0.0"
   },
   "devDependencies": {
     "@types/jest": "^26.0.20",
@@ -34,7 +34,7 @@
     "pdfreader": "^1.2.14",
     "puppeteer": "16",
     "vue-jest": "^3.0.7",
-    "vue-template-compiler": "^2.6.11",
+    "vue-template-compiler": "^2.7.16",
     "@babel/eslint-parser": "^7.12.16",
     "@babel/core": "^7.12.16"
   },
