@@ -1,4 +1,4 @@
-# mikedidomizio.com
+# Mike DiDomizio Resume
 
 [![Build](https://github.com/mikedidomizio/mikedidomizio-resume/actions/workflows/main.yml/badge.svg)](https://github.com/mikedidomizio/mikedidomizio-resume/actions/workflows/main.yml/badge.svg)
 [![codecov](https://codecov.io/gh/mikedidomizio/mikedidomizio-resume/branch/master/graph/badge.svg?token=T9EZW2D26M)](https://codecov.io/gh/mikedidomizio/mikedidomizio-resume)
@@ -15,7 +15,7 @@ Has unit testing to ensure no unwanted changes are made to the project.
 
 ### Requirements
 
-- Node 18
+- Node 22
 
 ```
 $ yarn install (OR) npm install // install dependencies
@@ -23,6 +23,8 @@ $ yarn serve // which launches your browser to display a hot reload version of t
 ```
 
 ## Development
+
+### Docker
 
 A lot of the building and testing in CI is done with Docker.  Since visual regression testing is done locally and CI 
 you need to build everything locally (which isn't as hard as it sounds).  
@@ -37,6 +39,10 @@ new screenshots which will also need to be reviewed/committed for the build to p
 
 If it fails, and it probably will, review the diffs and if everything is satisfactory, delete the `__image_snapshots__` 
 directory and run it again.  At this time, the setup is still not seamless.
+
+#### Windows Docker build issue
+
+Prefix the previous shell script with `MSYS2_ARG_CONV_EXCL='*'` if running on Windows with Git Bash to prevent path conversion issues.
 
 ### Compiles and hot-reloads for development
 ```
