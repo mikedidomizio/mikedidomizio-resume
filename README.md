@@ -15,7 +15,7 @@ Has unit testing to ensure no unwanted changes are made to the project.
 
 ### Requirements
 
-- Node 24
+- Node 22
 
 ```
 $ yarn install (OR) npm install // install dependencies
