@@ -8,50 +8,56 @@
         <PersonalProfile message="Hi - I'm Mike, a Staff Engineer passionate about writing clean,<br/> scalable code and mentoring engineers to grow and thrive." />
         <Section>Working Experience</Section>
         <CVItem title="theScore" website="https://www.thescore.bet"
-                date="Aug 2022 - Present" position="Staff Engineer, Tech Lead (Web Platform)">
+                date="Aug 2022 - Dec 2025" position="Staff Engineer, Tech Lead (Web Platform)">
             <ul class="disc">
-                <li>Write guidelines and standards on building complex shareable components for our monorepo</li>
-                <li>Mentoring new team on advanced React concepts, proper testing, best practices</li>
-                <li>Worked with product management to align on timelines, assess risks, and drive delivery of high priority features</li>
-                <li>Learning the various pain points from team members, taking the feedback and implementing
-                  solutions to improve productivity, testing, and developer experience</li>
-                <li>Created MacOS application to bypass daemon service to reduce testing friction</li>
-                <li>Created Datadog observability dashboards to monitor frontend performance and ensure alignment with partnership SLOs</li>
+                <li>Led cross-team architectural direction for a 40+ developer NX Next.js monorepo,
+                  defining standards for building scalable, shareable UI components used across multiple product lines.</li>
+                <li>Mentored engineers across several teams, coaching intermediate and senior developers on advanced React patterns,
+                  testing rigor, performance profiling, and scalable frontend design—raising overall engineering quality and velocity.</li>
+                <li>Partnered closely with product leadership to set delivery expectations,
+                  assess technical risk, and unblock high-priority feature work across multiple squads.</li>
+                <li>Proactively gathered developer pain points and implemented DX improvements—reducing testing friction,
+                  standardizing workflows, and helping teams ship with greater confidence.</li>
+                <li>Built a custom macOS utility to bypass a daemon service,
+                  significantly reducing testing pains and improving day-to-day feedback loops for dozens of QA engineers.</li>
+                <li>Created Datadog dashboards that surfaced frontend performance, SLO adherence,
+                  and user-experience metrics for internal teams and partners, strengthening reliability and
+                  alignment on performance goals.</li>
             </ul>
         </CVItem>
         <CVItem title="Coveo" website="https://www.coveo.com"
                 date="Aug 2021 - Aug 2022" position="Senior Frontend Developer (Machine Learning)">
           <ul class="disc">
-            <li>Implement visual regression testing to reduce the number of unintended visual changes between releases</li>
-            <li>Write standards and recommendations on contributing code and reviewing to reduce pull request time turnaround</li>
-            <li>Refactoring of legacy Backbone code in React, using React Testing Library to reduce the likelihood of regressions</li>
-            <li>Provide guidance from previous experience to improve the processes in place for my team</li>
+            <li>Implemented automated visual regression testing, reducing unintended UI changes across
+              releases and improving overall release confidence.</li>
+            <li>Authored coding and review standards that streamlined PR turnaround time and improved consistency across contributors.</li>
+            <li>Modernized large sections of legacy Backbone code into React, supported by React Testing Library
+              to prevent regressions in ML-focused interfaces.</li>
           </ul>
         </CVItem>
         <CVItem title="Thales Canada" website="https://www.thalesgroup.com/en/americas/canada"
                 date="July 2017 - Aug 2021" position="Scrum Master/Software Developer (Cybersecurity)">
             <ul class="disc">
-                <li>Work closely with Product Managers to t-shirt size features with our team and give estimated
-                    delivery
-                    date by using the team velocity from previous sprints
+                <li>Collaborated with Product Managers to estimate feature scope and timeline commitments,
+                  using historical velocity to improve delivery predictability.
                 </li>
-                <li>Conduct retrospectives on our sprint and work towards improving the efficiency of the team</li>
-                <li>Hold daily scrums to ensure team is moving forward and be able to help and guide the team</li>
-                <li>Complete breakdown and autonomous implementation of full stack objectives</li>
-                <li>Help with pager duty incidents to ensure minimal downtime</li>
-                <li>Run lunch and learn events to further develop teams skill sets</li>
-                <li>Deployed a number of Google Cloud Platform (GCP) functions like Pub/Sub, BigQuery</li>
+                <li>Facilitated retros, daily scrums, and sprint planning, cultivating a continuous-improvement culture within the team.</li>
+                <li>Hold daily scrums to ensure team is moving forward and be able to help and guide the team.</li>
+                <li>Delivered independent full-stack feature implementations, supporting a complex cybersecurity
+                  platform and participating in on-call rotations to ensure system uptime.</li>
+                <li>Organized lunch-and-learns to raise engineering capability across cloud, backend, and frontend topics.</li>
+                <li>Deployed multiple GCP functions (Pub/Sub, BigQuery) to automate internal workflows and improve system capability.</li>
             </ul>
         </CVItem>
         <CVItem title="IDS North America" website="https://www.idscorporation.com/na"
                 date="July 2015 - July 2017" position="Lead Developer (Aircraft Navigation)">
             <ul class="disc">
-                <li>Lead developer on 12 person billing project</li>
-                <li>Responsible for driving the team to one of the most successful launches of a product within the company</li>
-                <li>Responsible for Sprint planning and backlog refinement</li>
-                <li>Set up of common design, templating, shared AngularJS components for projects</li>
-                <li>Automate CI/CD of projects through GulpJS and GitLab CI</li>
-                <li>Set up custom Yeoman generators for scaffolding future AngularJS projects</li>
+                <li>Acted as lead developer for a 12-person billing platform initiative,
+                  driving one of the company’s most successful product launches.</li>
+                <li>Led sprint planning and backlog refinement, while establishing shared AngularJS component libraries used across multiple projects.</li>
+                <li>Automated CI/CD workflows using GulpJS and GitLab CI to reduce
+                  deployment friction and accelerate iterative delivery.</li>
+                <li>Built custom Yeoman generators to standardize project scaffolding for future teams—improving consistency and onboarding time.</li>
             </ul>
         </CVItem>
         <CVItem title="Spoonity" website="https://www.spoonity.com/"
