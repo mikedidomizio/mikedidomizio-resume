@@ -18,8 +18,6 @@
             <p v-if="education && !hasNoLineItems">My time in {{title}} was exciting to say the least. A few of the many things I learnt there
                 were:</p>
 
-            <p v-if="!education && !hasNoLineItems">My involvement and skill set with {{title}} include{{ isCurrentPosition() ? "s" : "d" }} the following:</p>
-
             <p v-if="hasNoLineItems">I'm still working on accomplishments at this company</p>
 
             <slot></slot>
