@@ -12,12 +12,12 @@
             <ul class="disc">
                 <li>Led cross team architectural direction for a 40+ developer Next.js NX monorepo,
                   defining standards for building scalable, shareable UI components used across multiple product lines.</li>
-                <li>Established and led the Web Guild to gather feedback across feature teams, surface common pain points,
-                  quickly iterate on solutions, and drive alignment on shared frontend and DX standards.</li>
                 <li>Mentored engineers across several teams, coaching intermediate and senior developers on
                   advanced React patterns, testing rigor, performance profiling, and scalable frontend design,
                   which raised overall engineering quality and velocity.</li>
-                <li>Partnered closely with product leadership to set delivery expectations,
+                <li>Established and led the Web Guild to gather feedback across feature teams, surface common pain points,
+                  quickly iterate on solutions, and drive alignment on shared frontend and DX standards.</li>
+                <li>Partnered closely with leadership to set delivery expectations,
                   assess technical risk, and unblock high priority feature work.</li>
                 <li>Proactively gathered developer pain points and implemented DX improvements, which reduced testing friction,
                   standardized workflows, and helped teams ship with greater confidence.</li>
@@ -56,8 +56,8 @@
             <ul class="disc">
                 <li>Acted as lead developer for a 12 person billing application,
                   driving one of the company’s most successful product launches.</li>
-                <li>Responsible for Sprint planning and backlog refinement</li>
-                <li>Set up of common design, templating, shared AngularJS components for projects</li>
+                <li>Responsible for Sprint planning and backlog refinement.</li>
+                <li>Set up of common design, templating, shared AngularJS components for projects.</li>
                 <li>Automated CI/CD workflows using GulpJS and GitLab CI to reduce
                   deployment friction and accelerate iterative delivery.</li>
                 <li>Built custom Yeoman generators to standardize project scaffolding for future teams, improving consistency and onboarding time.</li>
@@ -110,7 +110,7 @@
                       Rapid Antigen Test Finder (2021):  built a rapid antigen test appointment helper for most of Canada.
                       It received nationwide attention, and I was interviewed by <a href="https://www.youtube.com/watch?v=JZNTT7g3ytQ" target="_blank">CTV Toronto</a>
                       , <a href="https://www.youtube.com/watch?v=6ofQ82206K8" target="_blank">CTV Ottawa</a>, as well as multiple radio/newspaper interviews including the Toronto Star.
-                      Built with NextJS, GraphQL, and deployed via Vercel. Received 20,000-30,000 hits per day around Christmas 2021.
+                      Built with NextJS, GraphQL, and deployed via Vercel. In its first five days, it consistently received 20,000+ hits per day.
                     </li>
                     <li>Open Source Contributions: Contributed to fixes in open source tooling like pnpm, LaunchDarkly SDK, and ESLint.</li>
                     <li>VueJS powered résumé: This résumé is a web project in VueJS!  It's <a href="https://github.com/mikedidomizio/mikedidomizio-resume">open

@@ -26,8 +26,8 @@ $ yarn serve // which launches your browser to display a hot reload version of t
 
 ### Docker
 
-A lot of the building and testing in CI is done with Docker.  Since visual regression testing is done locally and CI 
-you need to build everything locally (which isn't as hard as it sounds).  
+A lot of the building and testing in CI is done with Docker.  Since visual regression testing is done locally and through CI 
+you need to build everything locally to ensure consistency with the CI environment (like OS/browser etc.).  
 
 ensure you've built the image through docker
 
