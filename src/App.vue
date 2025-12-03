@@ -18,7 +18,7 @@
                   advanced React patterns, testing rigor, performance profiling, and scalable frontend design,
                   which raised overall engineering quality and velocity.</li>
                 <li>Partnered closely with product leadership to set delivery expectations,
-                  assess technical risk, and unblock high priority feature work across multiple squads.</li>
+                  assess technical risk, and unblock high priority feature work.</li>
                 <li>Proactively gathered developer pain points and implemented DX improvements, which reduced testing friction,
                   standardized workflows, and helped teams ship with greater confidence.</li>
                 <li>Developed a macOS utility that sidestepped a blocking daemon dependency, enabling engineers and QA to toggle
