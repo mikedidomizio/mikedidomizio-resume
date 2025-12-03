@@ -22,7 +22,7 @@ describe('E2E tests', () => {
         browser.close();
     });
 
-    it('should be titled "Mike DiDomizio CV"', async () => {
-        await expect(page.title()).resolves.toMatch('Mike DiDomizio CV');
+    it('should be titled "Mike DiDomizio Resume"', async () => {
+        await expect(page.title()).resolves.toMatch('Mike DiDomizio Resume');
     });
 });

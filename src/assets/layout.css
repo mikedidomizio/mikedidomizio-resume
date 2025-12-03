@@ -157,4 +157,9 @@
 
     .contact-info-2 li{ float:none; }
     .contact-info-2 .hide-on-phone{ display:none; }
+
+    .cv-item-description h6 { padding-right: 0; }
+
+    /* A hack because for whatever reason the first skill needs extra left margin in print */
+    .skill:nth-child(1) { margin-left: 4px; }
 }
