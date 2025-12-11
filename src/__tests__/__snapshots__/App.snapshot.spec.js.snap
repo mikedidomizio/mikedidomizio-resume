@@ -155,7 +155,7 @@ exports[`should render the entire app 1`] = `
          
         <li>
           Mentored engineers across several teams, coaching intermediate and senior developers on
-              advanced React patterns, testing rigor, performance profiling, and scalable frontend design,
+              advanced React patterns, testing strategies, performance profiling, and scalable frontend design,
               which raised overall engineering quality and velocity.
         </li>
          
@@ -166,7 +166,7 @@ exports[`should render the entire app 1`] = `
          
         <li>
           Partnered closely with leadership to set delivery expectations,
-              assess technical risk, and unblock high priority feature work.
+              assess technical risk, and unblock high priority work.
         </li>
          
         <li>
