@@ -13,12 +13,12 @@
                 <li>Led cross team architectural direction for a 40+ developer Next.js NX monorepo,
                   defining standards for building scalable, shareable UI components used across multiple product lines.</li>
                 <li>Mentored engineers across several teams, coaching intermediate and senior developers on
-                  advanced React patterns, testing rigor, performance profiling, and scalable frontend design,
+                  advanced React patterns, testing strategies, performance profiling, and scalable frontend design,
                   which raised overall engineering quality and velocity.</li>
                 <li>Established and led the Web Guild to gather feedback across feature teams, surface common pain points,
                   quickly iterate on solutions, and drive alignment on shared frontend and DX standards.</li>
                 <li>Partnered closely with leadership to set delivery expectations,
-                  assess technical risk, and unblock high priority feature work.</li>
+                  assess technical risk, and unblock high priority work.</li>
                 <li>Proactively gathered developer pain points and implemented DX improvements, which reduced testing friction,
                   standardized workflows, and helped teams ship with greater confidence.</li>
                 <li>Developed a macOS utility that sidestepped a blocking daemon dependency, enabling engineers and QA to toggle
