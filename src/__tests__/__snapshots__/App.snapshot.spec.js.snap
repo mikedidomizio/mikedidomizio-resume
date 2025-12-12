@@ -165,8 +165,7 @@ exports[`should render the entire app 1`] = `
         </li>
          
         <li>
-          Partnered closely with leadership to set delivery expectations,
-              assess technical risk, and unblock high priority work.
+          Partnered with leadership to set delivery expectations, evaluate technical risk, and unblock high priority initiatives.
         </li>
          
         <li>
@@ -175,13 +174,18 @@ exports[`should render the entire app 1`] = `
         </li>
          
         <li>
+          Started a 30-60-90 onboarding plan with an onboarding buddy program to accelerate
+              ramp-up during rapid team growth which enabled engineers to contribute within their first week.
+        </li>
+         
+        <li>
           Developed a macOS utility that sidestepped a blocking daemon dependency, enabling engineers and QA to toggle
               daemon dependent flows without reinstalls and significantly reducing local testing friction.
         </li>
          
         <li>
-          Created Datadog dashboards that surfaced frontend performance, SLO adherence, and user-experience metrics,
-              along with Slack integrated alerts that improved visibility and alignment on reliability goals.
+          Built Datadog dashboards surfacing frontend performance, SLO adherence, and user-experience metrics,
+              paired with Slack alerts that improved visibility and alignment on reliability goals.
         </li>
       </ul>
     </div>
@@ -293,11 +297,7 @@ exports[`should render the entire app 1`] = `
         </li>
          
         <li>
-          Facilitated retros, daily scrums, and sprint planning, cultivating a continuous improvement culture within the team.
-        </li>
-         
-        <li>
-          Hold daily scrums to ensure team is moving forward and be able to help and guide the team.
+          Facilitated daily scrums, sprint planning, and retros, cultivating a continuous improvement culture within the team.
         </li>
          
         <li>
