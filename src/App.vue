@@ -6,7 +6,9 @@
                 phone-number="+1-613-806-0770">
         </Header>
         <PersonalProfile message="Hi - I'm Mike, a Staff Engineer passionate about writing clean,<br/> scalable code and mentoring engineers to grow and thrive." />
+
         <Section>Working Experience</Section>
+
         <CVItem title="theScore" website="https://www.thescore.bet"
                 date="Aug 2022 - Nov 2025" position="Staff Engineer, Tech Lead (Web Platform)">
             <ul class="disc">
@@ -85,8 +87,8 @@
 
         <SkillsSection>
             <SkillsRow>
-                <Skill v-bind:rank="9">Next/React</Skill>
-                <Skill v-bind:rank="9">NodeJS</Skill>
+                <Skill v-bind:rank="9">Next.js/React</Skill>
+                <Skill v-bind:rank="9">Node.js</Skill>
                 <Skill v-bind:rank="8">PostgreSQL/MySQL</Skill>
             </SkillsRow>
             <SkillsRow>
