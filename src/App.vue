@@ -17,14 +17,15 @@
                   which raised overall engineering quality and velocity.</li>
                 <li>Established and led the Web Guild to gather feedback across feature teams, surface common pain points,
                   quickly iterate on solutions, and drive alignment on shared frontend and DX standards.</li>
-                <li>Partnered closely with leadership to set delivery expectations,
-                  assess technical risk, and unblock high priority work.</li>
+                <li>Partnered with leadership to set delivery expectations, evaluate technical risk, and unblock high priority initiatives.</li>
                 <li>Proactively gathered developer pain points and implemented DX improvements, which reduced testing friction,
                   standardized workflows, and helped teams ship with greater confidence.</li>
+                <li>Started a 30-60-90 onboarding plan with an onboarding buddy program to accelerate
+                  ramp-up during rapid team growth which enabled engineers to contribute within their first week.</li>
                 <li>Developed a macOS utility that sidestepped a blocking daemon dependency, enabling engineers and QA to toggle
                   daemon dependent flows without reinstalls and significantly reducing local testing friction.</li>
-                <li>Created Datadog dashboards that surfaced frontend performance, SLO adherence, and user-experience metrics,
-                  along with Slack integrated alerts that improved visibility and alignment on reliability goals.</li>
+                <li>Built Datadog dashboards surfacing frontend performance, SLO adherence, and user-experience metrics,
+                  paired with Slack alerts that improved visibility and alignment on reliability goals.</li>
             </ul>
         </CVItem>
         <CVItem title="Coveo" website="https://www.coveo.com"
@@ -43,8 +44,7 @@
                 <li>Collaborated with Product Managers to estimate feature scope and timeline commitments,
                   using historical velocity to improve delivery predictability.
                 </li>
-                <li>Facilitated retros, daily scrums, and sprint planning, cultivating a continuous improvement culture within the team.</li>
-                <li>Hold daily scrums to ensure team is moving forward and be able to help and guide the team.</li>
+                <li>Facilitated daily scrums, sprint planning, and retros, cultivating a continuous improvement culture within the team.</li>
                 <li>Delivered independent fullstack feature implementations, supporting a complex cybersecurity
                   platform and participating in oncall rotations to ensure system uptime.</li>
                 <li>Organized lunch and learns to raise engineering capability across cloud, backend, and frontend topics.</li>
