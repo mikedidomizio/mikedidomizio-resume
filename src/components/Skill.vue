@@ -128,7 +128,7 @@
   }
 
   .level {
-    box-shadow: inset 0 0 0 200px #fff;
+    box-shadow: inset 0 0 0 200px #f5f5f5;
     height: 2px;
     width: 100%;
     border-radius: 0;
