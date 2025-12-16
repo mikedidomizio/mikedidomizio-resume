@@ -78,7 +78,7 @@
                 date="2011 - 2013" position="Software Developer">
             <ul class="disc">
                 <li>Designed and deployed globally distributed AWS infrastructure (EC2, S3, CloudFront, RDS)
-                  for scalable media delivery, including streaming pipelines using Wowza/Flowplayer and integrations with major social platforms.</li>
+                  for scalable media delivery, including streaming pipelines using Wowza/Flowplayer and integrations with social media platforms.</li>
                 <li>Contributed to backend architecture, multi server deployments, and content distribution systems optimized for high availability and reach.</li>
             </ul>
         </CVItem>
