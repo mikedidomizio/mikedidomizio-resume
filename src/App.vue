@@ -78,7 +78,7 @@
                 date="2011 - 2013" position="Software Developer">
             <ul class="disc">
                 <li>Designed and deployed globally distributed AWS infrastructure (EC2, S3, CloudFront, RDS)
-                  for scalable media delivery, including streaming pipelines using Wowza/Flowplayer and integrations with major social platforms.</li>
+                  for scalable media delivery, including streaming pipelines using Wowza/Flowplayer and integrations with social media platforms.</li>
                 <li>Contributed to backend architecture, multi server deployments, and content distribution systems optimized for high availability and reach.</li>
             </ul>
         </CVItem>
@@ -112,7 +112,7 @@
                       Rapid Antigen Test Finder (2021):  built a rapid antigen test appointment helper for most of Canada.
                       It received nationwide attention, and I was interviewed by <a href="https://www.youtube.com/watch?v=JZNTT7g3ytQ" target="_blank">CTV Toronto</a>
                       , <a href="https://www.youtube.com/watch?v=6ofQ82206K8" target="_blank">CTV Ottawa</a>, as well as multiple radio/newspaper interviews including the Toronto Star.
-                      Built with NextJS, GraphQL, and deployed via Vercel. In its first five days, it consistently received 20,000+ hits per day.
+                      Built with Next.js, GraphQL, and deployed via Vercel. In its first five days, it consistently received 20,000+ hits per day.
                     </li>
                     <li>Open Source Contributions: Contributed to fixes in open source tooling like pnpm, LaunchDarkly SDK, and ESLint.</li>
                     <li>VueJS powered résumé: This résumé is a web project in VueJS!  It's <a href="https://github.com/mikedidomizio/mikedidomizio-resume">open
