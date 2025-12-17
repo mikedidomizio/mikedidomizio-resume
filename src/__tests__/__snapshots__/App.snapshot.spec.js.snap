@@ -480,7 +480,7 @@ exports[`should render the entire app 1`] = `
       >
         <li>
           Designed and deployed globally distributed AWS infrastructure (EC2, S3, CloudFront, RDS)
-              for scalable media delivery, including streaming pipelines using Wowza/Flowplayer and integrations with major social platforms.
+              for scalable media delivery, including streaming pipelines using Wowza/Flowplayer and integrations with social media platforms.
         </li>
          
         <li>
@@ -803,7 +803,7 @@ exports[`should render the entire app 1`] = `
               CTV Ottawa
             </a>
             , as well as multiple radio/newspaper interviews including the Toronto Star.
-                  Built with NextJS, GraphQL, and deployed via Vercel. In its first five days, it consistently received 20,000+ hits per day.
+                  Built with Next.js, GraphQL, and deployed via Vercel. In its first five days, it consistently received 20,000+ hits per day.
                 
           </li>
            
